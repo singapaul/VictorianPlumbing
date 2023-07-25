@@ -1,0 +1,1428 @@
+{
+    "pagination": {
+        "from": 0,
+        "size": 2,
+        "total": 3345,
+        "sortType": 1
+    },
+    "facets": [
+        {
+            "identifier": "departments",
+            "displayName": "Departments",
+            "priority": 10,
+            "options": [
+                {
+                    "identifier": "F9-AD-EC-99-67-0F-85-6A",
+                    "value": "bathroom",
+                    "displayValue": "Bathroom",
+                    "productCount": 3343,
+                    "priority": 0
+                },
+                {
+                    "identifier": "A1-02-90-BF-1F-AD-90-C4",
+                    "value": "kitchen",
+                    "displayValue": "Kitchen",
+                    "productCount": 497,
+                    "priority": 0
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "prices",
+            "displayName": "Price",
+            "priority": 200,
+            "options": [
+                {
+                    "identifier": "5C-9D-80-50-A7-42-1F-3C",
+                    "value": {
+                        "gte": 0.0,
+                        "lte": 50.0
+                    },
+                    "displayValue": "0 - 50",
+                    "productCount": 64,
+                    "priority": 0
+                },
+                {
+                    "identifier": "21-B0-61-BE-22-C4-8C-48",
+                    "value": {
+                        "gte": 50.0,
+                        "lte": 100.0
+                    },
+                    "displayValue": "50 - 100",
+                    "productCount": 497,
+                    "priority": 100
+                },
+                {
+                    "identifier": "42-EF-AE-E1-9B-85-93-C2",
+                    "value": {
+                        "gte": 100.0,
+                        "lte": 150.0
+                    },
+                    "displayValue": "100 - 150",
+                    "productCount": 707,
+                    "priority": 200
+                },
+                {
+                    "identifier": "3D-02-FC-D0-B1-8F-65-51",
+                    "value": {
+                        "gte": 150.0,
+                        "lte": 200.0
+                    },
+                    "displayValue": "150 - 200",
+                    "productCount": 544,
+                    "priority": 300
+                },
+                {
+                    "identifier": "B7-C6-87-8F-4F-81-BB-E1",
+                    "value": {
+                        "gte": 200.0,
+                        "lte": 300.0
+                    },
+                    "displayValue": "200 - 300",
+                    "productCount": 739,
+                    "priority": 400
+                },
+                {
+                    "identifier": "B8-99-41-2D-1C-1B-66-CE",
+                    "value": {
+                        "gte": 300.0,
+                        "lte": 500.0
+                    },
+                    "displayValue": "300 - 500",
+                    "productCount": 573,
+                    "priority": 500
+                },
+                {
+                    "identifier": "CD-8A-EF-72-D8-CA-08-BF",
+                    "value": {
+                        "gte": 500.0,
+                        "lte": 1000.0
+                    },
+                    "displayValue": "500 - 1000",
+                    "productCount": 185,
+                    "priority": 600
+                },
+                {
+                    "identifier": "BE-4B-71-B8-96-73-FD-4C",
+                    "value": {
+                        "gte": 1000.0
+                    },
+                    "displayValue": "1000 - ",
+                    "productCount": 39,
+                    "priority": 700
+                }
+            ],
+            "facetType": 20
+        },
+        {
+            "identifier": "productType",
+            "displayName": "Product Type",
+            "priority": 300,
+            "options": [
+                {
+                    "identifier": "F2-11-DD-92-53-36-A7-E7",
+                    "value": "Basin Taps",
+                    "displayValue": "Basin Taps",
+                    "productCount": 475,
+                    "priority": 0
+                },
+                {
+                    "identifier": "50-34-5F-44-53-BD-F3-A5",
+                    "value": "Bath Taps",
+                    "displayValue": "Bath Taps",
+                    "productCount": 942,
+                    "priority": 100
+                },
+                {
+                    "identifier": "02-CA-E6-A9-6C-89-40-6F",
+                    "value": "Bidet Taps",
+                    "displayValue": "Bidet Taps",
+                    "productCount": 6,
+                    "priority": 200
+                },
+                {
+                    "identifier": "61-DB-8B-DA-0D-5F-68-EA",
+                    "value": "Kitchen Taps",
+                    "displayValue": "Kitchen Taps",
+                    "productCount": 145,
+                    "priority": 300
+                },
+                {
+                    "identifier": "EC-7D-C0-CA-5C-6B-31-F6",
+                    "value": "Side Valves",
+                    "displayValue": "Side Valves",
+                    "productCount": 24,
+                    "priority": 400
+                },
+                {
+                    "identifier": "B7-DB-CD-23-B9-B5-49-22",
+                    "value": "Tap Sets",
+                    "displayValue": "Tap Sets",
+                    "productCount": 46,
+                    "priority": 500
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "tapType",
+            "displayName": "Tap Type",
+            "priority": 400,
+            "options": [
+                {
+                    "identifier": "CE-6B-5D-8A-18-62-22-6D",
+                    "value": "Bath Filler",
+                    "displayValue": "Bath Filler",
+                    "productCount": 376,
+                    "priority": 0
+                },
+                {
+                    "identifier": "43-E6-A4-05-52-7D-77-A0",
+                    "value": "Bath Shower Mixer",
+                    "displayValue": "Bath Shower Mixer",
+                    "productCount": 525,
+                    "priority": 100
+                },
+                {
+                    "identifier": "ED-EA-D8-59-7F-C3-58-B8",
+                    "value": "Bib",
+                    "displayValue": "Bib",
+                    "productCount": 9,
+                    "priority": 200
+                },
+                {
+                    "identifier": "48-CD-D9-C1-4C-3D-29-68",
+                    "value": "Bidet ",
+                    "displayValue": "Bidet ",
+                    "productCount": 84,
+                    "priority": 300
+                },
+                {
+                    "identifier": "5E-F1-0A-C0-C7-04-C5-AE",
+                    "value": "Cool Touch",
+                    "displayValue": "Cool Touch",
+                    "productCount": 4,
+                    "priority": 400
+                },
+                {
+                    "identifier": "14-66-77-F5-49-D7-45-D5",
+                    "value": "Deck Mounted",
+                    "displayValue": "Deck Mounted",
+                    "productCount": 279,
+                    "priority": 500
+                },
+                {
+                    "identifier": "E7-F8-F2-35-81-A3-6A-B3",
+                    "value": "EasyTouch ",
+                    "displayValue": "EasyTouch ",
+                    "productCount": 3,
+                    "priority": 600
+                },
+                {
+                    "identifier": "F7-31-BA-FD-22-89-B3-7D",
+                    "value": "Freestanding",
+                    "displayValue": "Freestanding",
+                    "productCount": 106,
+                    "priority": 700
+                },
+                {
+                    "identifier": "F1-72-A9-02-4A-C4-9E-00",
+                    "value": "High Rise ",
+                    "displayValue": "High Rise ",
+                    "productCount": 202,
+                    "priority": 800
+                },
+                {
+                    "identifier": "62-84-C4-9A-B1-03-38-80",
+                    "value": "Instant Boiling",
+                    "displayValue": "Instant Boiling",
+                    "productCount": 58,
+                    "priority": 900
+                },
+                {
+                    "identifier": "69-C9-21-0B-DE-BB-27-A9",
+                    "value": "Monobloc",
+                    "displayValue": "Monobloc",
+                    "productCount": 1497,
+                    "priority": 1000
+                },
+                {
+                    "identifier": "00-25-CB-3C-70-A4-B2-19",
+                    "value": "Non Concussive",
+                    "displayValue": "Non Concussive",
+                    "productCount": 11,
+                    "priority": 1100
+                },
+                {
+                    "identifier": "16-D5-41-69-5E-B6-64-C7",
+                    "value": "Pillar & Bridge",
+                    "displayValue": "Pillar & Bridge",
+                    "productCount": 336,
+                    "priority": 1200
+                },
+                {
+                    "identifier": "12-70-2B-D1-40-2C-C9-EE",
+                    "value": "Pull Out Spray",
+                    "displayValue": "Pull Out Spray",
+                    "productCount": 146,
+                    "priority": 1300
+                },
+                {
+                    "identifier": "66-D0-DD-F1-24-60-5B-EA",
+                    "value": "QuickFix",
+                    "displayValue": "QuickFix",
+                    "productCount": 20,
+                    "priority": 1400
+                },
+                {
+                    "identifier": "66-0C-5F-B6-78-42-D3-80",
+                    "value": "Sensor",
+                    "displayValue": "Sensor",
+                    "productCount": 43,
+                    "priority": 1500
+                },
+                {
+                    "identifier": "7C-10-A7-F4-7D-C5-B6-B3",
+                    "value": "Swivel Spout",
+                    "displayValue": "Swivel Spout",
+                    "productCount": 567,
+                    "priority": 1600
+                },
+                {
+                    "identifier": "CF-48-5F-E5-74-50-4A-84",
+                    "value": "Tap Packs",
+                    "displayValue": "Tap Packs",
+                    "productCount": 46,
+                    "priority": 1700
+                },
+                {
+                    "identifier": "EF-F1-CB-00-DD-C3-FA-DA",
+                    "value": "Thermostatic",
+                    "displayValue": "Thermostatic",
+                    "productCount": 33,
+                    "priority": 1800
+                },
+                {
+                    "identifier": "BF-0C-DD-1B-9A-B0-57-1D",
+                    "value": "TMV2 Approved",
+                    "displayValue": "TMV2 Approved",
+                    "productCount": 8,
+                    "priority": 1900
+                },
+                {
+                    "identifier": "1F-A2-E9-F7-7B-0A-31-C6",
+                    "value": "TMV3 Approved",
+                    "displayValue": "TMV3 Approved",
+                    "productCount": 6,
+                    "priority": 2000
+                },
+                {
+                    "identifier": "12-5D-F7-7A-F2-01-B0-1E",
+                    "value": "Wall Mounted",
+                    "displayValue": "Wall Mounted",
+                    "productCount": 481,
+                    "priority": 2100
+                },
+                {
+                    "identifier": "73-8F-D3-30-3E-D9-50-33",
+                    "value": "Water Filter",
+                    "displayValue": "Water Filter",
+                    "productCount": 85,
+                    "priority": 2200
+                },
+                {
+                    "identifier": "A2-77-B1-FA-28-D2-A4-22",
+                    "value": "Water Saving",
+                    "displayValue": "Water Saving",
+                    "productCount": 133,
+                    "priority": 2300
+                },
+                {
+                    "identifier": "0F-BC-A4-75-81-57-7A-53",
+                    "value": "Waterfall",
+                    "displayValue": "Waterfall",
+                    "productCount": 81,
+                    "priority": 2400
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "colour",
+            "displayName": "Colour",
+            "priority": 500,
+            "options": [
+                {
+                    "identifier": "C1-A9-2A-2A-D5-9E-F5-FC",
+                    "value": "Antique Brass",
+                    "displayValue": "Antique Brass",
+                    "productCount": 17,
+                    "priority": 0
+                },
+                {
+                    "identifier": "3F-CB-96-ED-6C-64-AB-3F",
+                    "value": "Black",
+                    "displayValue": "Black",
+                    "productCount": 492,
+                    "priority": 100
+                },
+                {
+                    "identifier": "91-49-EB-B4-FA-15-DC-64",
+                    "value": "Black Nickel",
+                    "displayValue": "Black Nickel",
+                    "productCount": 1,
+                    "priority": 200
+                },
+                {
+                    "identifier": "0A-E6-8E-29-74-55-4E-C6",
+                    "value": "Brass",
+                    "displayValue": "Brass",
+                    "productCount": 197,
+                    "priority": 300
+                },
+                {
+                    "identifier": "2B-AF-E7-F0-A4-F2-48-5E",
+                    "value": "Bronze",
+                    "displayValue": "Bronze",
+                    "productCount": 9,
+                    "priority": 400
+                },
+                {
+                    "identifier": "C2-B0-34-34-16-2C-F7-E0",
+                    "value": "Chrome",
+                    "displayValue": "Chrome",
+                    "productCount": 2187,
+                    "priority": 500
+                },
+                {
+                    "identifier": "72-03-24-74-46-1B-2E-8E",
+                    "value": "Colours",
+                    "displayValue": "Colours",
+                    "productCount": 1,
+                    "priority": 600
+                },
+                {
+                    "identifier": "4A-A7-25-54-69-A1-27-5D",
+                    "value": "Copper",
+                    "displayValue": "Copper",
+                    "productCount": 19,
+                    "priority": 700
+                },
+                {
+                    "identifier": "B3-E6-54-11-B2-0B-51-90",
+                    "value": "Dark Chrome",
+                    "displayValue": "Dark Chrome",
+                    "productCount": 8,
+                    "priority": 800
+                },
+                {
+                    "identifier": "97-49-C3-81-DC-91-90-95",
+                    "value": "Gold",
+                    "displayValue": "Gold",
+                    "productCount": 112,
+                    "priority": 900
+                },
+                {
+                    "identifier": "7A-D2-71-D4-77-54-6C-FB",
+                    "value": "Graphite",
+                    "displayValue": "Graphite",
+                    "productCount": 4,
+                    "priority": 1000
+                },
+                {
+                    "identifier": "5D-14-78-08-86-6C-72-5C",
+                    "value": "Gun Metal",
+                    "displayValue": "Gun Metal",
+                    "productCount": 24,
+                    "priority": 1100
+                },
+                {
+                    "identifier": "9C-B4-40-A3-E6-71-38-CB",
+                    "value": "Nickel",
+                    "displayValue": "Nickel",
+                    "productCount": 90,
+                    "priority": 1200
+                },
+                {
+                    "identifier": "81-51-42-07-BD-7A-CB-89",
+                    "value": "Rose Gold",
+                    "displayValue": "Rose Gold",
+                    "productCount": 10,
+                    "priority": 1300
+                },
+                {
+                    "identifier": "3E-08-9F-01-E7-5A-97-F4",
+                    "value": "Stainless Steel",
+                    "displayValue": "Stainless Steel",
+                    "productCount": 101,
+                    "priority": 1400
+                },
+                {
+                    "identifier": "6F-9E-92-0D-A4-BC-51-D7",
+                    "value": "Tinted Glass",
+                    "displayValue": "Tinted Glass",
+                    "productCount": 1,
+                    "priority": 1500
+                },
+                {
+                    "identifier": "42-0E-9D-E2-14-7C-0D-E0",
+                    "value": "Walnut",
+                    "displayValue": "Walnut",
+                    "productCount": 11,
+                    "priority": 1600
+                },
+                {
+                    "identifier": "7B-30-5F-78-79-37-18-93",
+                    "value": "White",
+                    "displayValue": "White",
+                    "productCount": 23,
+                    "priority": 1700
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "style",
+            "displayName": "Style",
+            "priority": 600,
+            "options": [
+                {
+                    "identifier": "0F-77-58-E3-3A-61-0A-B7",
+                    "value": "Modern",
+                    "displayValue": "Modern",
+                    "productCount": 2124,
+                    "priority": 0
+                },
+                {
+                    "identifier": "D6-ED-25-7F-A1-A3-C4-37",
+                    "value": "Traditional",
+                    "displayValue": "Traditional",
+                    "productCount": 795,
+                    "priority": 100
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "tapHead",
+            "displayName": "Tap Head",
+            "priority": 700,
+            "options": [
+                {
+                    "identifier": "25-05-A7-B8-36-BC-32-F1",
+                    "value": "Cross Head",
+                    "displayValue": "Cross Head",
+                    "productCount": 629,
+                    "priority": 0
+                },
+                {
+                    "identifier": "D4-D7-75-A0-2F-E8-AA-F6",
+                    "value": "Dual Lever",
+                    "displayValue": "Dual Lever",
+                    "productCount": 97,
+                    "priority": 100
+                },
+                {
+                    "identifier": "F1-72-A0-43-00-40-99-9D",
+                    "value": "Joystick",
+                    "displayValue": "Joystick",
+                    "productCount": 11,
+                    "priority": 200
+                },
+                {
+                    "identifier": "97-31-67-69-54-7F-C0-74",
+                    "value": "Lever",
+                    "displayValue": "Lever",
+                    "productCount": 1909,
+                    "priority": 300
+                },
+                {
+                    "identifier": "E3-95-35-0A-C0-C6-9F-9C",
+                    "value": "Push-Button",
+                    "displayValue": "Push-Button",
+                    "productCount": 5,
+                    "priority": 400
+                },
+                {
+                    "identifier": "42-E3-CB-CD-B8-40-0B-88",
+                    "value": "Round",
+                    "displayValue": "Round",
+                    "productCount": 179,
+                    "priority": 500
+                },
+                {
+                    "identifier": "35-5C-E6-9D-1D-DF-E1-11",
+                    "value": "Sensor",
+                    "displayValue": "Sensor",
+                    "productCount": 43,
+                    "priority": 600
+                },
+                {
+                    "identifier": "23-DB-C2-9C-B0-75-DD-76",
+                    "value": "Single Lever",
+                    "displayValue": "Single Lever",
+                    "productCount": 297,
+                    "priority": 700
+                },
+                {
+                    "identifier": "D2-EE-A2-8A-62-02-05-FB",
+                    "value": "Square",
+                    "displayValue": "Square",
+                    "productCount": 48,
+                    "priority": 800
+                },
+                {
+                    "identifier": "0B-5C-A4-E5-C0-96-3A-ED",
+                    "value": "Triangle",
+                    "displayValue": "Triangle",
+                    "productCount": 3,
+                    "priority": 900
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "tapHoles",
+            "displayName": "Tap Holes",
+            "priority": 800,
+            "options": [
+                {
+                    "identifier": "8E-D9-37-7D-65-09-99-40",
+                    "value": "1 Tap Hole",
+                    "displayValue": "1 Tap Hole",
+                    "productCount": 1396,
+                    "priority": 0
+                },
+                {
+                    "identifier": "53-72-68-88-BD-A0-71-73",
+                    "value": "2 Tap Hole",
+                    "displayValue": "2 Tap Hole",
+                    "productCount": 1047,
+                    "priority": 100
+                },
+                {
+                    "identifier": "67-21-FB-E3-E2-2A-B8-42",
+                    "value": "3 Tap Hole",
+                    "displayValue": "3 Tap Hole",
+                    "productCount": 244,
+                    "priority": 200
+                },
+                {
+                    "identifier": "75-9E-6E-AC-97-CD-A8-73",
+                    "value": "4 Tap Hole",
+                    "displayValue": "4 Tap Hole",
+                    "productCount": 28,
+                    "priority": 300
+                },
+                {
+                    "identifier": "71-53-1E-9E-1F-7D-F7-C4",
+                    "value": "5 Tap Hole",
+                    "displayValue": "5 Tap Hole",
+                    "productCount": 17,
+                    "priority": 400
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "pressureSuitability",
+            "displayName": "Pressure Suitability",
+            "priority": 900,
+            "options": [
+                {
+                    "identifier": "D6-4E-56-4D-08-EE-56-51",
+                    "value": "High 1.0 Bar +",
+                    "displayValue": "High 1.0 Bar +",
+                    "productCount": 3298,
+                    "priority": 0
+                },
+                {
+                    "identifier": "D6-8C-45-71-C6-5E-36-C7",
+                    "value": "Low 0.1/0.4 Bar",
+                    "displayValue": "Low 0.1/0.4 Bar",
+                    "productCount": 1218,
+                    "priority": 400
+                },
+                {
+                    "identifier": "7B-F4-50-3F-51-13-89-AC",
+                    "value": "Med 0.5/0.9 Bar",
+                    "displayValue": "Med 0.5/0.9 Bar",
+                    "productCount": 2100,
+                    "priority": 200
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "approvals",
+            "displayName": "Approvals",
+            "priority": 1000,
+            "options": [
+                {
+                    "identifier": "D3-19-8B-8C-7D-0C-7F-64",
+                    "value": "TMV2",
+                    "displayValue": "TMV2",
+                    "productCount": 7,
+                    "priority": 0
+                },
+                {
+                    "identifier": "3A-50-0B-3C-41-76-3F-62",
+                    "value": "TMV3",
+                    "displayValue": "TMV3",
+                    "productCount": 6,
+                    "priority": 100
+                },
+                {
+                    "identifier": "11-EF-6D-49-B0-D3-BE-2E",
+                    "value": "WRAS",
+                    "displayValue": "WRAS",
+                    "productCount": 500,
+                    "priority": 200
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "brands",
+            "displayName": "Brand",
+            "priority": 9000,
+            "options": [
+                {
+                    "identifier": "64-79-92-2B-E9-39-02-BA",
+                    "value": "Arcade Bathrooms",
+                    "displayValue": "Arcade Bathrooms",
+                    "productCount": 11,
+                    "priority": 0
+                },
+                {
+                    "identifier": "9E-3B-39-DB-CD-0D-0D-E9",
+                    "value": "Arezzo",
+                    "displayValue": "Arezzo",
+                    "productCount": 143,
+                    "priority": 100
+                },
+                {
+                    "identifier": "68-0F-F6-2E-DE-41-07-7D",
+                    "value": "Armitage Shanks",
+                    "displayValue": "Armitage Shanks",
+                    "productCount": 10,
+                    "priority": 200
+                },
+                {
+                    "identifier": "3D-1B-A1-12-C9-28-F6-57",
+                    "value": "Asquiths Bathrooms",
+                    "displayValue": "Asquiths Bathrooms",
+                    "productCount": 86,
+                    "priority": 300
+                },
+                {
+                    "identifier": "6A-64-E6-97-3B-1D-1E-98",
+                    "value": "BagnoDesign",
+                    "displayValue": "BagnoDesign",
+                    "productCount": 55,
+                    "priority": 400
+                },
+                {
+                    "identifier": "31-0A-B1-D4-8C-B5-1B-D8",
+                    "value": "Bayswater",
+                    "displayValue": "Bayswater",
+                    "productCount": 44,
+                    "priority": 500
+                },
+                {
+                    "identifier": "8E-A4-07-56-3A-96-DF-A5",
+                    "value": "Bower",
+                    "displayValue": "Bower",
+                    "productCount": 68,
+                    "priority": 600
+                },
+                {
+                    "identifier": "63-9F-1A-99-62-91-49-44",
+                    "value": "Bristan",
+                    "displayValue": "Bristan",
+                    "productCount": 287,
+                    "priority": 700
+                },
+                {
+                    "identifier": "CD-C3-B7-BB-4C-65-CE-0C",
+                    "value": "Britton Bathrooms",
+                    "displayValue": "Britton Bathrooms",
+                    "productCount": 5,
+                    "priority": 800
+                },
+                {
+                    "identifier": "53-17-2B-D2-93-23-31-65",
+                    "value": "Brooklyn Bathrooms",
+                    "displayValue": "Brooklyn Bathrooms",
+                    "productCount": 5,
+                    "priority": 900
+                },
+                {
+                    "identifier": "76-44-19-56-0E-BB-3E-A9",
+                    "value": "Burlington Bathrooms",
+                    "displayValue": "Burlington Bathrooms",
+                    "productCount": 272,
+                    "priority": 1000
+                },
+                {
+                    "identifier": "56-F3-5F-E4-59-60-9A-ED",
+                    "value": "Chatsworth",
+                    "displayValue": "Chatsworth",
+                    "productCount": 43,
+                    "priority": 1100
+                },
+                {
+                    "identifier": "04-B8-8D-80-89-1C-81-C0",
+                    "value": "Crosswater",
+                    "displayValue": "Crosswater",
+                    "productCount": 280,
+                    "priority": 1200
+                },
+                {
+                    "identifier": "F8-83-42-9B-77-CB-24-5B",
+                    "value": "Cruze Bathrooms",
+                    "displayValue": "Cruze Bathrooms",
+                    "productCount": 26,
+                    "priority": 1300
+                },
+                {
+                    "identifier": "0F-B9-8B-59-7D-9D-66-47",
+                    "value": "Deva",
+                    "displayValue": "Deva",
+                    "productCount": 29,
+                    "priority": 1400
+                },
+                {
+                    "identifier": "08-5B-EF-02-C4-8A-EE-69",
+                    "value": "Duravit",
+                    "displayValue": "Duravit",
+                    "productCount": 61,
+                    "priority": 1500
+                },
+                {
+                    "identifier": "29-34-B4-42-74-9E-D5-0C",
+                    "value": "EcoDelux",
+                    "displayValue": "EcoDelux",
+                    "productCount": 5,
+                    "priority": 1600
+                },
+                {
+                    "identifier": "33-C9-35-82-DF-52-0B-28",
+                    "value": "Franke",
+                    "displayValue": "Franke",
+                    "productCount": 16,
+                    "priority": 1700
+                },
+                {
+                    "identifier": "81-2C-E4-82-D6-1F-BE-EC",
+                    "value": "Grohe",
+                    "displayValue": "Grohe",
+                    "productCount": 259,
+                    "priority": 1800
+                },
+                {
+                    "identifier": "C0-F0-B3-E1-EC-BA-07-CC",
+                    "value": "hansgrohe",
+                    "displayValue": "hansgrohe",
+                    "productCount": 274,
+                    "priority": 1900
+                },
+                {
+                    "identifier": "20-B0-5F-98-86-A8-3F-4A",
+                    "value": "Heritage Bathrooms",
+                    "displayValue": "Heritage Bathrooms",
+                    "productCount": 150,
+                    "priority": 2000
+                },
+                {
+                    "identifier": "25-51-19-8B-5E-8C-C6-8F",
+                    "value": "Hudson Reed",
+                    "displayValue": "Hudson Reed",
+                    "productCount": 120,
+                    "priority": 2100
+                },
+                {
+                    "identifier": "AF-BD-ED-9A-98-E0-DF-E8",
+                    "value": "Ideal Standard",
+                    "displayValue": "Ideal Standard",
+                    "productCount": 106,
+                    "priority": 2200
+                },
+                {
+                    "identifier": "C9-28-22-FA-49-6B-66-9C",
+                    "value": "Imperial",
+                    "displayValue": "Imperial",
+                    "productCount": 2,
+                    "priority": 2300
+                },
+                {
+                    "identifier": "7C-96-3B-BB-74-86-4E-B1",
+                    "value": "Just Taps Plus",
+                    "displayValue": "Just Taps Plus",
+                    "productCount": 62,
+                    "priority": 2400
+                },
+                {
+                    "identifier": "F6-12-B3-5C-8C-F3-69-A3",
+                    "value": "Keswick",
+                    "displayValue": "Keswick",
+                    "productCount": 16,
+                    "priority": 2500
+                },
+                {
+                    "identifier": "79-23-CB-22-6E-86-56-7A",
+                    "value": "Milan Bathrooms",
+                    "displayValue": "Milan Bathrooms",
+                    "productCount": 10,
+                    "priority": 2600
+                },
+                {
+                    "identifier": "C9-68-A6-09-BA-4D-CA-75",
+                    "value": "Miller",
+                    "displayValue": "Miller",
+                    "productCount": 3,
+                    "priority": 2700
+                },
+                {
+                    "identifier": "1B-DD-89-70-0E-15-65-F2",
+                    "value": "Milton Accessible Bathrooms",
+                    "displayValue": "Milton Accessible Bathrooms",
+                    "productCount": 2,
+                    "priority": 2800
+                },
+                {
+                    "identifier": "D6-A1-16-F7-19-7A-C1-DA",
+                    "value": "Mira Showers",
+                    "displayValue": "Mira Showers",
+                    "productCount": 31,
+                    "priority": 2900
+                },
+                {
+                    "identifier": "9F-90-09-05-91-4C-D6-9C",
+                    "value": "Monza­­ Bathrooms",
+                    "displayValue": "Monza­­ Bathrooms",
+                    "productCount": 30,
+                    "priority": 3000
+                },
+                {
+                    "identifier": "01-88-B5-E8-6A-F8-DA-56",
+                    "value": "Nova Bathrooms",
+                    "displayValue": "Nova Bathrooms",
+                    "productCount": 5,
+                    "priority": 3100
+                },
+                {
+                    "identifier": "25-2D-65-BC-C2-F3-FD-07",
+                    "value": "Nuie",
+                    "displayValue": "Nuie",
+                    "productCount": 114,
+                    "priority": 3200
+                },
+                {
+                    "identifier": "9A-CA-BF-65-56-7A-A5-DA",
+                    "value": "Old London",
+                    "displayValue": "Old London",
+                    "productCount": 6,
+                    "priority": 3300
+                },
+                {
+                    "identifier": "FE-22-4B-C6-E3-83-96-2D",
+                    "value": "Radius Taps",
+                    "displayValue": "Radius Taps",
+                    "productCount": 9,
+                    "priority": 3400
+                },
+                {
+                    "identifier": "4C-B2-CE-16-3E-70-B0-9B",
+                    "value": "RAK Ceramics",
+                    "displayValue": "RAK Ceramics",
+                    "productCount": 62,
+                    "priority": 3500
+                },
+                {
+                    "identifier": "EA-B4-F8-58-73-40-20-90",
+                    "value": "Rangemaster",
+                    "displayValue": "Rangemaster",
+                    "productCount": 24,
+                    "priority": 3600
+                },
+                {
+                    "identifier": "45-E4-6A-EE-48-87-F2-C9",
+                    "value": "Reginox",
+                    "displayValue": "Reginox",
+                    "productCount": 16,
+                    "priority": 3700
+                },
+                {
+                    "identifier": "3C-6B-F7-18-A4-22-9D-01",
+                    "value": "Roca",
+                    "displayValue": "Roca",
+                    "productCount": 45,
+                    "priority": 3800
+                },
+                {
+                    "identifier": "23-3E-75-D5-00-28-3E-42",
+                    "value": "Roper Rhodes",
+                    "displayValue": "Roper Rhodes",
+                    "productCount": 33,
+                    "priority": 3900
+                },
+                {
+                    "identifier": "37-D1-D9-A1-2F-47-FC-4D",
+                    "value": "Roxbury",
+                    "displayValue": "Roxbury",
+                    "productCount": 1,
+                    "priority": 4000
+                },
+                {
+                    "identifier": "8C-F3-B6-B0-56-32-16-84",
+                    "value": "Sagittarius",
+                    "displayValue": "Sagittarius",
+                    "productCount": 1,
+                    "priority": 4100
+                },
+                {
+                    "identifier": "0E-B5-74-E2-D2-4E-55-3D",
+                    "value": "Silverdale Bathrooms",
+                    "displayValue": "Silverdale Bathrooms",
+                    "productCount": 24,
+                    "priority": 4200
+                },
+                {
+                    "identifier": "33-C9-00-8F-0F-F2-2E-ED",
+                    "value": "Tavistock",
+                    "displayValue": "Tavistock",
+                    "productCount": 18,
+                    "priority": 4300
+                },
+                {
+                    "identifier": "DC-A3-35-CA-94-F1-C4-54",
+                    "value": "The Tap Factory",
+                    "displayValue": "The Tap Factory",
+                    "productCount": 23,
+                    "priority": 4400
+                },
+                {
+                    "identifier": "DA-EE-5D-1E-F5-FB-D4-09",
+                    "value": "Toreno",
+                    "displayValue": "Toreno",
+                    "productCount": 34,
+                    "priority": 4500
+                },
+                {
+                    "identifier": "E9-A4-79-0D-07-2A-FC-05",
+                    "value": "Trafalgar",
+                    "displayValue": "Trafalgar",
+                    "productCount": 9,
+                    "priority": 4600
+                },
+                {
+                    "identifier": "62-14-B1-AE-BE-75-A0-1C",
+                    "value": "Tre Mercati",
+                    "displayValue": "Tre Mercati",
+                    "productCount": 2,
+                    "priority": 4700
+                },
+                {
+                    "identifier": "4A-26-A0-0C-17-A8-BD-60",
+                    "value": "Twyford Bathrooms",
+                    "displayValue": "Twyford Bathrooms",
+                    "productCount": 1,
+                    "priority": 4800
+                },
+                {
+                    "identifier": "F3-C0-DF-22-FA-EF-CA-30",
+                    "value": "Ultra",
+                    "displayValue": "Ultra",
+                    "productCount": 4,
+                    "priority": 4900
+                },
+                {
+                    "identifier": "0A-C4-3C-E6-A9-9B-4C-4B",
+                    "value": "Valencia",
+                    "displayValue": "Valencia",
+                    "productCount": 15,
+                    "priority": 5000
+                },
+                {
+                    "identifier": "3E-EC-98-66-1A-90-1D-62",
+                    "value": "Venice",
+                    "displayValue": "Venice",
+                    "productCount": 56,
+                    "priority": 5100
+                },
+                {
+                    "identifier": "42-E6-CA-6D-EB-4B-AE-AB",
+                    "value": "Victorian Plumbing",
+                    "displayValue": "Victorian Plumbing",
+                    "productCount": 235,
+                    "priority": 5200
+                },
+                {
+                    "identifier": "B6-D8-91-CF-C7-D7-2B-C6",
+                    "value": "Villeroy & Boch",
+                    "displayValue": "Villeroy & Boch",
+                    "productCount": 94,
+                    "priority": 5300
+                },
+                {
+                    "identifier": "64-D4-47-65-A0-A3-7E-28",
+                    "value": "VitrA",
+                    "displayValue": "VitrA",
+                    "productCount": 3,
+                    "priority": 5400
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "isOnPromotion",
+            "displayName": "On Sale",
+            "priority": 9200,
+            "options": [
+                {
+                    "identifier": "F3-CF-50-67-40-37-C6-41",
+                    "value": true,
+                    "displayValue": "Yes",
+                    "productCount": 183,
+                    "priority": 100
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "stockStatus",
+            "displayName": "Availability",
+            "priority": 9400,
+            "options": [
+                {
+                    "identifier": "0F-84-42-A8-9E-45-99-35",
+                    "value": true,
+                    "displayValue": "In Stock",
+                    "productCount": 2091,
+                    "priority": 100
+                }
+            ],
+            "facetType": 10
+        },
+        {
+            "identifier": "categories",
+            "displayName": "Taps",
+            "priority": 10000,
+            "options": [
+                {
+                    "identifier": "1a5e844d-02b7-470f-8cd1-ed3a32cc37ee-2C48:en-GB",
+                    "value": "/taps/basin-taps/",
+                    "displayValue": "Basin Taps",
+                    "priority": 0,
+                    "linkSlug": "/taps/basin-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "8eeaa4f2-432f-4b67-b37d-ab6283d1b02f-2CB3:en-GB",
+                    "value": "/taps/bath-and-sink-taps-set/",
+                    "displayValue": "Bath and Sink Taps Set",
+                    "priority": 100,
+                    "linkSlug": "/taps/bath-and-sink-taps-set/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "2b6cc351-7f95-474e-b1c3-355dd3ac2d0d-2CAF:en-GB",
+                    "value": "/taps/bath-taps/",
+                    "displayValue": "Bath Taps",
+                    "priority": 200,
+                    "linkSlug": "/taps/bath-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "37785811-7d7d-4f2a-b1b2-ad12622d21f7-2C89:en-GB",
+                    "value": "/taps/bathroom-taps/",
+                    "displayValue": "Bathroom Taps",
+                    "priority": 300,
+                    "linkSlug": "/taps/bathroom-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "0aed1950-a18a-437b-a0b3-c29b12ea2366-2CA7:en-GB",
+                    "value": "/taps/bidet-taps/",
+                    "displayValue": "Bidet Taps",
+                    "priority": 400,
+                    "linkSlug": "/taps/bidet-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "5340b686-db0c-460f-9c5a-8b47641ef81e-2CB1:en-GB",
+                    "value": "/taps/cloakroom-taps/",
+                    "displayValue": "Cloakroom Taps",
+                    "priority": 500,
+                    "linkSlug": "/taps/cloakroom-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "e17e6421-9123-4825-8259-965ecde1a075-2C4C:en-GB",
+                    "value": "/taps/contemporary-taps/",
+                    "displayValue": "Contemporary Taps",
+                    "priority": 600,
+                    "linkSlug": "/taps/contemporary-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "791f4c0a-0eaa-48f0-a53c-3dc64653cadb-2CA9:en-GB",
+                    "value": "/taps/freestanding-taps/",
+                    "displayValue": "Freestanding Taps",
+                    "priority": 700,
+                    "linkSlug": "/taps/freestanding-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "9a7f5288-8086-4574-8c89-582663a1895e-2CF5:en-GB",
+                    "value": "/taps/instant-hot-water-taps/",
+                    "displayValue": "Instant Hot Water Taps",
+                    "priority": 800,
+                    "linkSlug": "/taps/instant-hot-water-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "cd90556a-3188-490e-9d4e-b895187d8548-2C35:en-GB",
+                    "value": "/taps/kitchen-taps/",
+                    "displayValue": "Kitchen Taps",
+                    "priority": 900,
+                    "linkSlug": "/taps/kitchen-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "67ac348a-5e68-4257-be66-44daa9751558-2CEF:en-GB",
+                    "value": "/taps/lever-taps/",
+                    "displayValue": "Lever Taps",
+                    "priority": 1000,
+                    "linkSlug": "/taps/lever-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "328ec42a-83fb-44df-be89-44028a9e5fa1-2CF3:en-GB",
+                    "value": "/taps/non-concussive-taps/",
+                    "displayValue": "Non Concussive Taps",
+                    "priority": 1100,
+                    "linkSlug": "/taps/non-concussive-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "19b2700f-1887-4dfe-8f8b-7661ff11ab7a-2CF1:en-GB",
+                    "value": "/taps/sensor-taps/",
+                    "displayValue": "Sensor Taps",
+                    "priority": 1200,
+                    "linkSlug": "/taps/sensor-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "be0a3c08-d563-49e7-8ed9-9def4e602d31-2CED:en-GB",
+                    "value": "/taps/standard-taps/",
+                    "displayValue": "Standard Taps",
+                    "priority": 1300,
+                    "linkSlug": "/taps/standard-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "bcbd64dd-f752-45f3-8e6b-c48835b8adc2-2CF9:en-GB",
+                    "value": "/taps/thermostatic-taps/",
+                    "displayValue": "Thermostatic Taps",
+                    "priority": 1400,
+                    "linkSlug": "/taps/thermostatic-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "450e1a10-3ac0-4c81-ae23-99da5e83b83a-2CB5:en-GB",
+                    "value": "/taps/traditional-taps/",
+                    "displayValue": "Traditional Taps",
+                    "priority": 1500,
+                    "linkSlug": "/taps/traditional-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "ac90be59-18bc-4f26-b122-6469c9c2947f-2CA5:en-GB",
+                    "value": "/taps/wall-mounted-spouts/",
+                    "displayValue": "Wall Mounted Spouts",
+                    "priority": 1600,
+                    "linkSlug": "/taps/wall-mounted-spouts/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "3c62350e-6d5d-4280-b15b-9fd40e04d341-2C4A:en-GB",
+                    "value": "/taps/wall-mounted-taps/",
+                    "displayValue": "Wall Mounted Taps",
+                    "priority": 1700,
+                    "linkSlug": "/taps/wall-mounted-taps/",
+                    "childOptions": []
+                },
+                {
+                    "identifier": "adb92c3f-ee21-4006-923b-bc10444d6116-2CF7:en-GB",
+                    "value": "/taps/water-saving-taps/",
+                    "displayValue": "Water Saving Taps",
+                    "priority": 1800,
+                    "linkSlug": "/taps/water-saving-taps/",
+                    "childOptions": []
+                }
+            ],
+            "facetType": 30
+        }
+    ],
+    "products": [
+        {
+            "id": "78e9b81d-9db1-457a-a17a-da2d767cd7cc-CFAA:en-GB",
+            "legacyId": "6579",
+            "legacyVariantId": "6579",
+            "cultureCode": "en-GB",
+            "isDefaultVariant": true,
+            "sku": "CRU001",
+            "productName": "Cruze Contemporary Mono Basin Mixer Tap Chrome",
+            "slug": "/cruze-contemporary-mono-basin-mixer-with-waste-chrome",
+            "averageRating": 4.9,
+            "reviewsCount": 58,
+            "questionsCount": 6,
+            "image": {
+                "externalId": "958961f9-3473-44f9-953d-66d7a0cd170e-CFEC",
+                "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/cruze-contemporary-mono-basin-mixer-with-waste-chrome/listingimages/licruzecontemporarymonobasinmixertapp.jpg",
+                "priority": 100,
+                "isDefault": false,
+                "attributes": {
+                    "imageAltText": "Cruze Contemporary Mono Basin Mixer Tap - Chrome"
+                }
+            },
+            "stockStatus": {
+                "status": "G"
+            },
+            "price": {
+                "currencyCode": "GBP",
+                "priceIncTax": 54.95,
+                "priceExcTax": 45.79,
+                "isOnPromotion": false
+            },
+            "attributes": {
+                "isApproved": false,
+                "isShownOnTv": false,
+                "isBestSeller": true,
+                "isFreeWaste": false,
+                "isPremium": false,
+                "isRecommended": false,
+                "isTrayIncluded": false,
+                "isBluetoothIncluded": false,
+                "isBatteryIncluded": false,
+                "isAntiSlipIncluded": false,
+                "isShortProjection": false,
+                "hasOneOutlet": false,
+                "hasTwoOutlets": false,
+                "hasThreeOutlets": false,
+                "isNew": false,
+                "hasMoreOptions": false
+            },
+            "defaultCategory": {
+                "externalId": "1a5e844d-02b7-470f-8cd1-ed3a32cc37ee-2C48:en-GB",
+                "slug": "/taps/basin-taps",
+                "name": "Basin Taps",
+                "isDefault": true,
+                "ancestors": [
+                    {
+                        "slug": "/taps",
+                        "externalId": "f1701539-6bad-428d-972e-4dafe642c0d9-2C33:en-GB",
+                        "name": "Taps",
+                        "depth": 1
+                    }
+                ]
+            },
+            "brand": {
+                "externalId": "bf978d66-bbf1-4955-b0fa-e850f28c868a-3D0F:en-GB",
+                "slug": "/brands/cruze-bathrooms",
+                "name": "Cruze Bathrooms",
+                "brandImage": {
+                    "externalId": "b62522ec-e986-42b2-9ed4-6362508b475a-3D0E",
+                    "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/cruze-bathrooms/logoimages/cruze_logo2.jpg",
+                    "priority": 100,
+                    "isDefault": false,
+                    "attributes": {
+                        "imageAltText": "Category logo image"
+                    }
+                }
+            },
+            "score": 29.211155
+        },
+        {
+            "id": "7c173d51-6995-4d62-802d-4e1885dfd518-FF10:en-GB",
+            "legacyId": "8309",
+            "legacyVariantId": "8309",
+            "cultureCode": "en-GB",
+            "isDefaultVariant": true,
+            "sku": "WF001",
+            "productName": "Monza Waterfall Basin Tap",
+            "slug": "/waterfall-mono-basin-mixer-with-push-waste-chrome",
+            "averageRating": 4.9,
+            "reviewsCount": 175,
+            "questionsCount": 11,
+            "image": {
+                "externalId": "13b5cd57-9640-4eea-be77-7606491761dc-FF51",
+                "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/waterfall-mono-basin-mixer-with-push-waste-chrome/listingimages/liplazawaterfallbasintapincwastep.jpg",
+                "priority": 100,
+                "isDefault": false,
+                "attributes": {
+                    "imageAltText": "Monza Waterfall Basin Tap + Waste Medium Image"
+                }
+            },
+            "stockStatus": {
+                "status": "G"
+            },
+            "price": {
+                "currencyCode": "GBP",
+                "priceIncTax": 54.95,
+                "priceExcTax": 45.79,
+                "isOnPromotion": false
+            },
+            "attributes": {
+                "isApproved": false,
+                "isShownOnTv": false,
+                "isBestSeller": true,
+                "isFreeWaste": false,
+                "isPremium": false,
+                "isRecommended": false,
+                "isTrayIncluded": false,
+                "isBluetoothIncluded": false,
+                "isBatteryIncluded": false,
+                "isAntiSlipIncluded": false,
+                "isShortProjection": false,
+                "hasOneOutlet": false,
+                "hasTwoOutlets": false,
+                "hasThreeOutlets": false,
+                "isNew": false,
+                "hasMoreOptions": false
+            },
+            "defaultCategory": {
+                "externalId": "1a5e844d-02b7-470f-8cd1-ed3a32cc37ee-2C48:en-GB",
+                "slug": "/taps/basin-taps",
+                "name": "Basin Taps",
+                "isDefault": true,
+                "ancestors": [
+                    {
+                        "slug": "/taps",
+                        "externalId": "f1701539-6bad-428d-972e-4dafe642c0d9-2C33:en-GB",
+                        "name": "Taps",
+                        "depth": 1
+                    }
+                ]
+            },
+            "brand": {
+                "externalId": "6ac4357c-8764-4708-9208-4d8b37d4c50a-3ADD:en-GB",
+                "slug": "/brands/monza",
+                "name": "Monza­­ Bathrooms",
+                "brandImage": {
+                    "externalId": "e7698f60-aef4-45fb-9794-41701546ad8b-3ADC",
+                    "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/monza/logoimages/monza_logo_new1.jpg",
+                    "priority": 100,
+                    "isDefault": false,
+                    "attributes": {
+                        "imageAltText": "Category logo image"
+                    }
+                }
+            },
+            "score": 25.997026
+        }
+    ]
+}
