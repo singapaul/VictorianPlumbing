@@ -5,6 +5,7 @@
 4. Infinite scroll
 5. Fix up types
 6. Error boundaries
+7. button component
 
 tidy up:
 
