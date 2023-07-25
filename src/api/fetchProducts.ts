@@ -35,24 +35,30 @@ interface Brand {
   name: string;
 }
 
-const fetchProducts = async (query: string, pageNumber: number) => {
+const fetchProducts = async (query: string, sortBy: number) => {
   const apiUrl =
     "https://spanishinquisition.victorianplumbing.co.uk/interviews/listings";
   const apiKey = import.meta.env.VITE_API_KEY;
 
   const requestBody = {
     query,
-    pageNumber,
+    pageNumber: 0,
     size: 10, // Set the desired number of items per page
     additionalPages: 0,
-    sort: 1,
+    sort: sortBy,
   };
 
-  const response = await axios.post<ApiResponse>(
-    apiUrl + `?apikey=${apiKey}`,
-    requestBody
-  );
-  return response.data;
+  try {
+    const response = await axios.post<ApiResponse>(
+      apiUrl + `?apikey=${apiKey}`,
+      requestBody
+    );
+    return response.data;
+  } catch (error) {
+    // Handle the API error here
+    console.error("API Error:", error);
+    return Promise.reject(error);
+  }
 };
 
 export { fetchProducts };
