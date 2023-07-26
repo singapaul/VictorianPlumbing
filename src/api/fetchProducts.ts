@@ -10,8 +10,8 @@ interface ApiResponse {
 type Pagination = {
   from: number;
   size: number;
-  total: number;
   sortType: number;
+  total: number;
 };
 
 interface Product {
@@ -41,18 +41,22 @@ const fetchProducts = async (query: string, sortBy: number, page: number) => {
   const apiKey = import.meta.env.VITE_API_KEY;
 
   const requestBody = {
-    query,
+    query: query,
     pageNumber: page,
-    size: 20, // Set the desired number of items per page
+    size: 10,
     additionalPages: 0,
     sort: sortBy,
   };
+
+  console.log(requestBody);
 
   try {
     const response = await axios.post<ApiResponse>(
       apiUrl + `?apikey=${apiKey}`,
       requestBody
     );
+
+    console.log(response.data);
     return response.data;
   } catch (error) {
     // Handle the API error here
