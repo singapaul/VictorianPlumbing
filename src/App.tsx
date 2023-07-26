@@ -1,93 +1,106 @@
-import { useEffect, useState } from "react";
-import { useQuery } from "react-query";
+import { Key, useEffect, useState } from "react";
+import { useInfiniteQuery } from "react-query";
 import { fetchProducts, ApiResponse } from "./api/fetchProducts";
-import Form from "./components/Form";
+import { FormData, Product } from "./types/types";
+import Filterbar from "./components/Filterbar";
 import ProductCard from "./components/ProductCard";
 import ProductGrid from "./components/ProductGrid";
-import Filterbar from "./components/Filterbar";
-import ErrorBoundary from "./components/ErrorBoundary";
-import "./App.css";
+import React from "react";
+import Form from "./components/Form";
 
-// @todo assess best practices. e.g. import order
+//  assess best practices. e.g. import order
 function App() {
-  // const [page, setPage] = useState(0);
-  const [formData, setFormData] = useState({
+
+  const [isFetching, setIsFetching] = useState(false);
+  const [formData, setFormData] = useState<FormData>({
     search: "toilets",
     option: 1,
+    low: 0,
+    high: 10000,
   });
 
-  // Callback function to receive form data from the child
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  const handleFormSubmit = async (data) => {
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+  const handleFormSubmit = (data) => {
     setFormData(data);
   };
-  // Use useEffect to trigger the refetch after formData is updated
 
-  // const [showSidebar, setShowSidebar] = useState(false);
-  const queryKey = ["products"];
-  // const queryKey = ["products", query, page];
+  const fetchProductsData = async ({ pageParam = 0 }) => {
+    return await fetchProducts({
+      query: formData.search,
+      sortBy: formData.option,
+      page: pageParam,
+      high: formData.high,
+      low: formData.low,
+    });
+  };
 
-  const { data, isLoading, isError, error, isSuccess, refetch } = useQuery<
-    ApiResponse,
-    Error
-  >(queryKey, () => fetchProducts(formData.search, formData?.option), {
+  const {
+    data,
+    fetchNextPage,
+    hasNextPage,
+    isLoading,
+    isError,
+    error,
+    refetch,
+  } = useInfiniteQuery<ApiResponse, Error>(["products"], fetchProductsData, {
+    getNextPageParam: (lastPage, allPages) => {
+      const nextPage =
+        lastPage.products.length === 10 ? allPages.length + 1 : undefined;
+      return nextPage;
+    },
     retry: 1,
     onError: (error) => {
       console.error("API Error:", error);
-      // You can display an error message here or take other actions as needed.
-    },
-  });
-
-  // Use the onSuccess callback to trigger the refetch
-  useQuery(queryKey, () => fetchProducts(formData.search, formData?.option), {
-    onSuccess: () => {
-      refetch();
     },
   });
 
   useEffect(() => {
-    let fetching = false;
-    const onScroll = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const onScroll = () => {
       const { scrollHeight, scrollTop, clientHeight } =
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        event.target.scrollingElement;
+        document.documentElement;
 
-      if (!fetching && scrollHeight - scrollTop <= clientHeight * 1.5) {
-        fetching = true;
-        console.log("hi");
-        fetching = false;
+      if (
+        !isFetching &&
+        hasNextPage &&
+        scrollHeight - scrollTop <= clientHeight * 1.5
+      ) {
+        setIsFetching(true);
+        fetchNextPage();
       }
     };
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    document.addEventListener("scroll", onScroll);
+
+    if (!isFetching) {
+      document.addEventListener("scroll", onScroll);
+    }
 
     return () => {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
       document.removeEventListener("scroll", onScroll);
     };
-  }, []);
+  }, [hasNextPage, fetchNextPage, isFetching, isLoading]);
+
+  useEffect(() => {
+    setIsFetching(false);
+  }, [data]);
+
+  useEffect(() => {
+    refetch();
+  }, [formData, refetch]);
 
   if (isLoading) {
     return <div>Loading...</div>;
   }
 
-  if (isError && !isSuccess) {
+  if (isError) {
     return (
       <>
-        {" "}
         <div className="flex flex-col md:flex-row">
           <Filterbar>
             <Form handleSubmitForm={handleFormSubmit} />
           </Filterbar>
           <div className="md:w-3/4 p-4">
             <div>Error: {error?.message}</div>
-            <button onClick={() => window.location.reload()}>
-              Refresh Page
-            </button>
+            <p>please reload page</p>
           </div>
         </div>
       </>
@@ -99,23 +112,25 @@ function App() {
       <div className="flex flex-col md:flex-row">
         <Filterbar>
           <Form handleSubmitForm={handleFormSubmit} />
-          {/* <input type="number" value={page} onChange={handleChange} />
-          <button onClick={submitForm}>Submit</button> */}
         </Filterbar>
         <div className="md:w-3/4 p-4">
-          <ErrorBoundary>
-            <ProductGrid>
-              {data?.products.map((product, index) => (
-                <ProductCard
-                  key={index}
-                  name={product.productName}
-                  brand={product.brand.name}
-                  price={product.price.priceIncTax}
-                  imageSource={product.image.url}
-                />
-              ))}
-            </ProductGrid>
-          </ErrorBoundary>
+          <ProductGrid>
+            {data?.pages.map((page) => (
+              <React.Fragment key={page.pagination.from}>
+                {page.products.map(
+                  (product: Product, index: Key | null | undefined) => (
+                    <ProductCard
+                      key={index}
+                      name={product.productName}
+                      brand={product.brand.name}
+                      price={product.price.priceIncTax}
+                      imageSource={product.image.url}
+                    />
+                  )
+                )}
+              </React.Fragment>
+            ))}
+          </ProductGrid>
         </div>
       </div>
     </>

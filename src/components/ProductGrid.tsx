@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 type ProductGridProps = {
   children: ReactNode;
@@ -6,7 +6,7 @@ type ProductGridProps = {
 
 const ProductGrid = ({ children }: ProductGridProps) => {
   return (
-    <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14">
+    <div className="w-fit mx-auto grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 justify-items-center justify-center gap-y-20 gap-x-14">
       {children}
     </div>
   );
