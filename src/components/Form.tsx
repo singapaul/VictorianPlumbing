@@ -50,7 +50,7 @@ export default function Form({ handleSubmitForm }: FormProps) {
             <option value={4}>Largest discount</option>
           </select>
         </label>
-        <Button type="submit" label="Submit"/>
+        <Button type="submit" label="Submit" variant="secondary"/>
       </form>
     </div>
   );

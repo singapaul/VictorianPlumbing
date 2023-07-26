@@ -1,0 +1,3338 @@
+{
+  "pagination": {
+    "from": 0,
+    "size": 30,
+    "total": 730,
+    "sortType": 1
+  },
+  "facets": [
+    {
+      "identifier": "departments",
+      "displayName": "Departments",
+      "priority": 10,
+      "options": [
+        {
+          "identifier": "F9-AD-EC-99-67-0F-85-6A",
+          "value": "bathroom",
+          "displayValue": "Bathroom",
+          "productCount": 720,
+          "priority": 0
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "prices",
+      "displayName": "Price",
+      "priority": 200,
+      "options": [
+        {
+          "identifier": "1A-AA-E5-CC-39-66-CA-3A",
+          "value": {
+            "gte": 0.0,
+            "lte": 100.0
+          },
+          "displayValue": "0 - 100",
+          "productCount": 2,
+          "priority": 0
+        },
+        {
+          "identifier": "42-EF-AE-E1-9B-85-93-C2",
+          "value": {
+            "gte": 100.0,
+            "lte": 150.0
+          },
+          "displayValue": "100 - 150",
+          "productCount": 24,
+          "priority": 100
+        },
+        {
+          "identifier": "3D-02-FC-D0-B1-8F-65-51",
+          "value": {
+            "gte": 150.0,
+            "lte": 200.0
+          },
+          "displayValue": "150 - 200",
+          "productCount": 85,
+          "priority": 200
+        },
+        {
+          "identifier": "B7-C6-87-8F-4F-81-BB-E1",
+          "value": {
+            "gte": 200.0,
+            "lte": 300.0
+          },
+          "displayValue": "200 - 300",
+          "productCount": 200,
+          "priority": 300
+        },
+        {
+          "identifier": "D7-31-C8-EA-08-A5-DC-3C",
+          "value": {
+            "gte": 300.0,
+            "lte": 400.0
+          },
+          "displayValue": "300 - 400",
+          "productCount": 140,
+          "priority": 400
+        },
+        {
+          "identifier": "D1-C2-F6-E9-C4-1E-F0-82",
+          "value": {
+            "gte": 400.0,
+            "lte": 600.0
+          },
+          "displayValue": "400 - 600",
+          "productCount": 185,
+          "priority": 500
+        },
+        {
+          "identifier": "EC-9C-8A-3C-46-D9-B6-DB",
+          "value": {
+            "gte": 600.0,
+            "lte": 800.0
+          },
+          "displayValue": "600 - 800",
+          "productCount": 60,
+          "priority": 600
+        },
+        {
+          "identifier": "7B-BB-08-92-0F-3A-E9-4C",
+          "value": {
+            "gte": 800.0,
+            "lte": 1000.0
+          },
+          "displayValue": "800 - 1000",
+          "productCount": 34,
+          "priority": 700
+        },
+        {
+          "identifier": "BE-4B-71-B8-96-73-FD-4C",
+          "value": {
+            "gte": 1000.0
+          },
+          "displayValue": "1000 - ",
+          "productCount": 35,
+          "priority": 800
+        }
+      ],
+      "facetType": 20
+    },
+    {
+      "identifier": "toiletStyle",
+      "displayName": "Style",
+      "priority": 300,
+      "options": [
+        {
+          "identifier": "1A-0D-8E-F5-02-80-29-13",
+          "value": "Modern",
+          "displayValue": "Modern",
+          "productCount": 527,
+          "priority": 0
+        },
+        {
+          "identifier": "C2-6B-FD-D0-3D-53-2B-2E",
+          "value": "Traditional",
+          "displayValue": "Traditional",
+          "productCount": 141,
+          "priority": 100
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "colour",
+      "displayName": "Colour",
+      "priority": 500,
+      "options": [
+        {
+          "identifier": "3F-CB-96-ED-6C-64-AB-3F",
+          "value": "Black",
+          "displayValue": "Black",
+          "productCount": 30,
+          "priority": 0
+        },
+        {
+          "identifier": "4D-3E-45-6E-A2-5F-43-7B",
+          "value": "Blue",
+          "displayValue": "Blue",
+          "productCount": 2,
+          "priority": 100
+        },
+        {
+          "identifier": "0A-E6-8E-29-74-55-4E-C6",
+          "value": "Brass",
+          "displayValue": "Brass",
+          "productCount": 10,
+          "priority": 200
+        },
+        {
+          "identifier": "C2-B0-34-34-16-2C-F7-E0",
+          "value": "Chrome",
+          "displayValue": "Chrome",
+          "productCount": 2,
+          "priority": 300
+        },
+        {
+          "identifier": "AD-84-F8-99-A9-35-0E-6D",
+          "value": "Green",
+          "displayValue": "Green",
+          "productCount": 2,
+          "priority": 400
+        },
+        {
+          "identifier": "88-32-27-B2-BF-89-AE-F5",
+          "value": "Grey",
+          "displayValue": "Grey",
+          "productCount": 5,
+          "priority": 500
+        },
+        {
+          "identifier": "48-04-03-A9-F0-F0-EC-92",
+          "value": "Matt White",
+          "displayValue": "Matt White",
+          "productCount": 7,
+          "priority": 600
+        },
+        {
+          "identifier": "08-A3-13-E1-CA-F8-E9-F6",
+          "value": "Metallic",
+          "displayValue": "Metallic",
+          "productCount": 1,
+          "priority": 700
+        },
+        {
+          "identifier": "DA-66-CF-FA-DF-05-DC-34",
+          "value": "Oak",
+          "displayValue": "Oak",
+          "productCount": 2,
+          "priority": 800
+        },
+        {
+          "identifier": "3E-08-9F-01-E7-5A-97-F4",
+          "value": "Stainless Steel",
+          "displayValue": "Stainless Steel",
+          "productCount": 5,
+          "priority": 900
+        },
+        {
+          "identifier": "7B-30-5F-78-79-37-18-93",
+          "value": "White",
+          "displayValue": "White",
+          "productCount": 660,
+          "priority": 1000
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "flushType",
+      "displayName": "Flush Type",
+      "priority": 550,
+      "options": [
+        {
+          "identifier": "DF-18-03-91-5A-96-D2-07",
+          "value": "Chain Pull",
+          "displayValue": "Chain Pull",
+          "productCount": 36,
+          "priority": 0
+        },
+        {
+          "identifier": "35-3A-82-48-A6-02-46-60",
+          "value": "Dual Flush",
+          "displayValue": "Dual Flush",
+          "productCount": 313,
+          "priority": 100
+        },
+        {
+          "identifier": "EE-47-49-69-67-0A-50-90",
+          "value": "Lever",
+          "displayValue": "Lever",
+          "productCount": 81,
+          "priority": 200
+        },
+        {
+          "identifier": "A0-48-24-F5-E7-9E-FA-54",
+          "value": "Push Button",
+          "displayValue": "Push Button",
+          "productCount": 297,
+          "priority": 300
+        },
+        {
+          "identifier": "2E-B7-C6-9A-CD-EE-0B-48",
+          "value": "Rimless",
+          "displayValue": "Rimless",
+          "productCount": 215,
+          "priority": 400
+        },
+        {
+          "identifier": "8E-4A-DB-30-CF-99-5F-1A",
+          "value": "Smart Bidet",
+          "displayValue": "Smart Bidet",
+          "productCount": 13,
+          "priority": 500
+        },
+        {
+          "identifier": "0F-1D-56-18-1E-5D-17-4F",
+          "value": "Touchless",
+          "displayValue": "Touchless",
+          "productCount": 2,
+          "priority": 600
+        },
+        {
+          "identifier": "D8-63-FF-0B-A5-B5-C7-1F",
+          "value": "Vortex Flush",
+          "displayValue": "Vortex Flush",
+          "productCount": 8,
+          "priority": 700
+        },
+        {
+          "identifier": "83-D9-F1-6E-A0-33-13-3C",
+          "value": "Water Saving",
+          "displayValue": "Water Saving",
+          "productCount": 18,
+          "priority": 800
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "toiletProjection",
+      "displayName": "Projection",
+      "priority": 600,
+      "options": [
+        {
+          "identifier": "E8-3C-3B-FB-D5-B1-B6-55",
+          "value": "0 - 499 mm",
+          "displayValue": "0 - 499 mm",
+          "productCount": 60,
+          "priority": 0
+        },
+        {
+          "identifier": "86-50-58-FC-20-5C-53-E1",
+          "value": "500 - 549 mm",
+          "displayValue": "500 - 549 mm",
+          "productCount": 216,
+          "priority": 100
+        },
+        {
+          "identifier": "84-F4-E4-5C-7E-5A-C0-48",
+          "value": "550 - 599 mm",
+          "displayValue": "550 - 599 mm",
+          "productCount": 76,
+          "priority": 200
+        },
+        {
+          "identifier": "CB-1B-B5-EA-8E-8F-F8-EB",
+          "value": "600 - 649 mm",
+          "displayValue": "600 - 649 mm",
+          "productCount": 127,
+          "priority": 300
+        },
+        {
+          "identifier": "05-4E-05-BF-D8-71-A2-1A",
+          "value": "650 - 699 mm",
+          "displayValue": "650 - 699 mm",
+          "productCount": 108,
+          "priority": 400
+        },
+        {
+          "identifier": "16-A6-ED-07-21-4B-B8-E7",
+          "value": "700 - 749 mm",
+          "displayValue": "700 - 749 mm",
+          "productCount": 86,
+          "priority": 500
+        },
+        {
+          "identifier": "66-4D-27-3B-39-7C-47-F5",
+          "value": "750+ mm",
+          "displayValue": "750+ mm",
+          "productCount": 37,
+          "priority": 600
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "toiletwidth",
+      "displayName": "Width",
+      "priority": 700,
+      "options": [
+        {
+          "identifier": "A5-53-C4-98-59-05-96-25",
+          "value": "0 - 349 mm",
+          "displayValue": "0 - 349 mm",
+          "productCount": 19,
+          "priority": 0
+        },
+        {
+          "identifier": "8E-41-EB-8C-D3-31-75-C4",
+          "value": "350 - 399 mm",
+          "displayValue": "350 - 399 mm",
+          "productCount": 547,
+          "priority": 100
+        },
+        {
+          "identifier": "CD-96-D3-DF-A3-65-AB-F7",
+          "value": "400 - 449 mm",
+          "displayValue": "400 - 449 mm",
+          "productCount": 39,
+          "priority": 200
+        },
+        {
+          "identifier": "04-B6-41-49-A5-FF-96-B7",
+          "value": "450 - 499 mm",
+          "displayValue": "450 - 499 mm",
+          "productCount": 48,
+          "priority": 300
+        },
+        {
+          "identifier": "11-36-81-AF-0E-ED-F6-2C",
+          "value": "500 - 549 mm",
+          "displayValue": "500 - 549 mm",
+          "productCount": 54,
+          "priority": 400
+        },
+        {
+          "identifier": "D8-0F-66-46-F6-51-81-E6",
+          "value": "550+ mm",
+          "displayValue": "550+ mm",
+          "productCount": 1,
+          "priority": 500
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "toiletHeight",
+      "displayName": "Height",
+      "priority": 800,
+      "options": [
+        {
+          "identifier": "3B-9A-CE-4C-65-83-87-F6",
+          "value": "0 - 349 mm",
+          "displayValue": "0 - 349 mm",
+          "productCount": 3,
+          "priority": 0
+        },
+        {
+          "identifier": "3C-41-0A-17-01-53-B3-38",
+          "value": "350 - 399 mm",
+          "displayValue": "350 - 399 mm",
+          "productCount": 37,
+          "priority": 100
+        },
+        {
+          "identifier": "4E-81-C2-3A-AB-05-01-66",
+          "value": "400 - 449 mm",
+          "displayValue": "400 - 449 mm",
+          "productCount": 230,
+          "priority": 200
+        },
+        {
+          "identifier": "95-13-27-A4-DD-EC-E0-D7",
+          "value": "450 - 499 mm",
+          "displayValue": "450 - 499 mm",
+          "productCount": 24,
+          "priority": 300
+        },
+        {
+          "identifier": "03-5C-4A-0A-C2-DC-F6-74",
+          "value": "500 - 549 mm",
+          "displayValue": "500 - 549 mm",
+          "productCount": 1,
+          "priority": 400
+        },
+        {
+          "identifier": "D2-D3-F1-B3-1F-E3-09-CF",
+          "value": "700 - 749 mm",
+          "displayValue": "700 - 749 mm",
+          "productCount": 4,
+          "priority": 500
+        },
+        {
+          "identifier": "71-43-99-A6-35-DE-D2-94",
+          "value": "750 - 799 mm",
+          "displayValue": "750 - 799 mm",
+          "productCount": 114,
+          "priority": 600
+        },
+        {
+          "identifier": "89-8D-B4-CC-1E-D3-A2-57",
+          "value": "800 - 849 mm",
+          "displayValue": "800 - 849 mm",
+          "productCount": 122,
+          "priority": 700
+        },
+        {
+          "identifier": "AC-24-77-63-1A-09-C5-80",
+          "value": "850 - 899 mm",
+          "displayValue": "850 - 899 mm",
+          "productCount": 45,
+          "priority": 800
+        },
+        {
+          "identifier": "74-F8-44-D9-24-F0-ED-7C",
+          "value": "900+ mm",
+          "displayValue": "900+ mm",
+          "productCount": 80,
+          "priority": 900
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "softClosingSeat",
+      "displayName": "Soft Closing Seat",
+      "priority": 825,
+      "options": [
+        {
+          "identifier": "66-02-F0-23-4F-C7-A1-7C",
+          "value": "Soft Close",
+          "displayValue": "Soft Close",
+          "productCount": 563,
+          "priority": 0
+        },
+        {
+          "identifier": "BA-59-B1-C2-A9-9C-0C-64",
+          "value": "Standard",
+          "displayValue": "Standard",
+          "productCount": 130,
+          "priority": 100
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "toiletShape",
+      "displayName": "Shape",
+      "priority": 850,
+      "options": [
+        {
+          "identifier": "49-48-62-27-03-79-24-18",
+          "value": "Curved",
+          "displayValue": "Curved",
+          "productCount": 566,
+          "priority": 0
+        },
+        {
+          "identifier": "31-6F-8A-6C-6F-2E-8B-9F",
+          "value": "Square",
+          "displayValue": "Square",
+          "productCount": 145,
+          "priority": 100
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "brands",
+      "displayName": "Brand",
+      "priority": 9000,
+      "options": [
+        {
+          "identifier": "1A-54-B6-77-4E-C4-55-58",
+          "value": "Alaska",
+          "displayValue": "Alaska",
+          "productCount": 3,
+          "priority": 0
+        },
+        {
+          "identifier": "64-79-92-2B-E9-39-02-BA",
+          "value": "Arcade Bathrooms",
+          "displayValue": "Arcade Bathrooms",
+          "productCount": 2,
+          "priority": 100
+        },
+        {
+          "identifier": "9E-3B-39-DB-CD-0D-0D-E9",
+          "value": "Arezzo",
+          "displayValue": "Arezzo",
+          "productCount": 62,
+          "priority": 200
+        },
+        {
+          "identifier": "68-0F-F6-2E-DE-41-07-7D",
+          "value": "Armitage Shanks",
+          "displayValue": "Armitage Shanks",
+          "productCount": 7,
+          "priority": 300
+        },
+        {
+          "identifier": "6A-64-E6-97-3B-1D-1E-98",
+          "value": "BagnoDesign",
+          "displayValue": "BagnoDesign",
+          "productCount": 9,
+          "priority": 400
+        },
+        {
+          "identifier": "31-0A-B1-D4-8C-B5-1B-D8",
+          "value": "Bayswater",
+          "displayValue": "Bayswater",
+          "productCount": 9,
+          "priority": 500
+        },
+        {
+          "identifier": "CD-C3-B7-BB-4C-65-CE-0C",
+          "value": "Britton Bathrooms",
+          "displayValue": "Britton Bathrooms",
+          "productCount": 26,
+          "priority": 600
+        },
+        {
+          "identifier": "53-17-2B-D2-93-23-31-65",
+          "value": "Brooklyn Bathrooms",
+          "displayValue": "Brooklyn Bathrooms",
+          "productCount": 3,
+          "priority": 700
+        },
+        {
+          "identifier": "76-44-19-56-0E-BB-3E-A9",
+          "value": "Burlington Bathrooms",
+          "displayValue": "Burlington Bathrooms",
+          "productCount": 53,
+          "priority": 800
+        },
+        {
+          "identifier": "56-F3-5F-E4-59-60-9A-ED",
+          "value": "Chatsworth",
+          "displayValue": "Chatsworth",
+          "productCount": 9,
+          "priority": 900
+        },
+        {
+          "identifier": "6F-A5-35-3D-15-33-67-F6",
+          "value": "Cove",
+          "displayValue": "Cove",
+          "productCount": 5,
+          "priority": 1000
+        },
+        {
+          "identifier": "04-B8-8D-80-89-1C-81-C0",
+          "value": "Crosswater",
+          "displayValue": "Crosswater",
+          "productCount": 10,
+          "priority": 1100
+        },
+        {
+          "identifier": "F8-83-42-9B-77-CB-24-5B",
+          "value": "Cruze Bathrooms",
+          "displayValue": "Cruze Bathrooms",
+          "productCount": 3,
+          "priority": 1200
+        },
+        {
+          "identifier": "08-5B-EF-02-C4-8A-EE-69",
+          "value": "Duravit",
+          "displayValue": "Duravit",
+          "productCount": 65,
+          "priority": 1300
+        },
+        {
+          "identifier": "29-34-B4-42-74-9E-D5-0C",
+          "value": "EcoDelux",
+          "displayValue": "EcoDelux",
+          "productCount": 6,
+          "priority": 1400
+        },
+        {
+          "identifier": "33-C9-35-82-DF-52-0B-28",
+          "value": "Franke",
+          "displayValue": "Franke",
+          "productCount": 5,
+          "priority": 1500
+        },
+        {
+          "identifier": "18-50-34-FF-DF-35-31-41",
+          "value": "Geberit",
+          "displayValue": "Geberit",
+          "productCount": 12,
+          "priority": 1600
+        },
+        {
+          "identifier": "81-2C-E4-82-D6-1F-BE-EC",
+          "value": "Grohe",
+          "displayValue": "Grohe",
+          "productCount": 34,
+          "priority": 1700
+        },
+        {
+          "identifier": "20-B0-5F-98-86-A8-3F-4A",
+          "value": "Heritage Bathrooms",
+          "displayValue": "Heritage Bathrooms",
+          "productCount": 19,
+          "priority": 1800
+        },
+        {
+          "identifier": "25-51-19-8B-5E-8C-C6-8F",
+          "value": "Hudson Reed",
+          "displayValue": "Hudson Reed",
+          "productCount": 11,
+          "priority": 1900
+        },
+        {
+          "identifier": "AF-BD-ED-9A-98-E0-DF-E8",
+          "value": "Ideal Standard",
+          "displayValue": "Ideal Standard",
+          "productCount": 50,
+          "priority": 2000
+        },
+        {
+          "identifier": "C9-28-22-FA-49-6B-66-9C",
+          "value": "Imperial",
+          "displayValue": "Imperial",
+          "productCount": 8,
+          "priority": 2100
+        },
+        {
+          "identifier": "F6-12-B3-5C-8C-F3-69-A3",
+          "value": "Keswick",
+          "displayValue": "Keswick",
+          "productCount": 1,
+          "priority": 2200
+        },
+        {
+          "identifier": "79-23-CB-22-6E-86-56-7A",
+          "value": "Milan Bathrooms",
+          "displayValue": "Milan Bathrooms",
+          "productCount": 2,
+          "priority": 2300
+        },
+        {
+          "identifier": "1B-DD-89-70-0E-15-65-F2",
+          "value": "Milton Accessible Bathrooms",
+          "displayValue": "Milton Accessible Bathrooms",
+          "productCount": 7,
+          "priority": 2400
+        },
+        {
+          "identifier": "9F-90-09-05-91-4C-D6-9C",
+          "value": "Monza­­ Bathrooms",
+          "displayValue": "Monza­­ Bathrooms",
+          "productCount": 2,
+          "priority": 2500
+        },
+        {
+          "identifier": "01-88-B5-E8-6A-F8-DA-56",
+          "value": "Nova Bathrooms",
+          "displayValue": "Nova Bathrooms",
+          "productCount": 5,
+          "priority": 2600
+        },
+        {
+          "identifier": "25-2D-65-BC-C2-F3-FD-07",
+          "value": "Nuie",
+          "displayValue": "Nuie",
+          "productCount": 23,
+          "priority": 2700
+        },
+        {
+          "identifier": "9A-CA-BF-65-56-7A-A5-DA",
+          "value": "Old London",
+          "displayValue": "Old London",
+          "productCount": 9,
+          "priority": 2800
+        },
+        {
+          "identifier": "4C-B2-CE-16-3E-70-B0-9B",
+          "value": "RAK Ceramics",
+          "displayValue": "RAK Ceramics",
+          "productCount": 60,
+          "priority": 2900
+        },
+        {
+          "identifier": "3C-6B-F7-18-A4-22-9D-01",
+          "value": "Roca",
+          "displayValue": "Roca",
+          "productCount": 14,
+          "priority": 3000
+        },
+        {
+          "identifier": "23-3E-75-D5-00-28-3E-42",
+          "value": "Roper Rhodes",
+          "displayValue": "Roper Rhodes",
+          "productCount": 7,
+          "priority": 3100
+        },
+        {
+          "identifier": "37-D1-D9-A1-2F-47-FC-4D",
+          "value": "Roxbury",
+          "displayValue": "Roxbury",
+          "productCount": 2,
+          "priority": 3200
+        },
+        {
+          "identifier": "0E-B5-74-E2-D2-4E-55-3D",
+          "value": "Silverdale Bathrooms",
+          "displayValue": "Silverdale Bathrooms",
+          "productCount": 17,
+          "priority": 3300
+        },
+        {
+          "identifier": "33-C9-00-8F-0F-F2-2E-ED",
+          "value": "Tavistock",
+          "displayValue": "Tavistock",
+          "productCount": 4,
+          "priority": 3400
+        },
+        {
+          "identifier": "2C-9B-65-BD-BC-43-E8-7F",
+          "value": "Tissino",
+          "displayValue": "Tissino",
+          "productCount": 1,
+          "priority": 3500
+        },
+        {
+          "identifier": "DA-EE-5D-1E-F5-FB-D4-09",
+          "value": "Toreno",
+          "displayValue": "Toreno",
+          "productCount": 2,
+          "priority": 3600
+        },
+        {
+          "identifier": "E9-A4-79-0D-07-2A-FC-05",
+          "value": "Trafalgar",
+          "displayValue": "Trafalgar",
+          "productCount": 1,
+          "priority": 3700
+        },
+        {
+          "identifier": "4A-26-A0-0C-17-A8-BD-60",
+          "value": "Twyford Bathrooms",
+          "displayValue": "Twyford Bathrooms",
+          "productCount": 5,
+          "priority": 3800
+        },
+        {
+          "identifier": "F3-C0-DF-22-FA-EF-CA-30",
+          "value": "Ultra",
+          "displayValue": "Ultra",
+          "productCount": 1,
+          "priority": 3900
+        },
+        {
+          "identifier": "3E-EC-98-66-1A-90-1D-62",
+          "value": "Venice",
+          "displayValue": "Venice",
+          "productCount": 5,
+          "priority": 4000
+        },
+        {
+          "identifier": "42-E6-CA-6D-EB-4B-AE-AB",
+          "value": "Victorian Plumbing",
+          "displayValue": "Victorian Plumbing",
+          "productCount": 67,
+          "priority": 4100
+        },
+        {
+          "identifier": "B6-D8-91-CF-C7-D7-2B-C6",
+          "value": "Villeroy & Boch",
+          "displayValue": "Villeroy & Boch",
+          "productCount": 61,
+          "priority": 4200
+        },
+        {
+          "identifier": "64-D4-47-65-A0-A3-7E-28",
+          "value": "VitrA",
+          "displayValue": "VitrA",
+          "productCount": 23,
+          "priority": 4300
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "isOnPromotion",
+      "displayName": "On Sale",
+      "priority": 9200,
+      "options": [
+        {
+          "identifier": "F3-CF-50-67-40-37-C6-41",
+          "value": true,
+          "displayValue": "Yes",
+          "productCount": 74,
+          "priority": 100
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "stockStatus",
+      "displayName": "Availability",
+      "priority": 9400,
+      "options": [
+        {
+          "identifier": "0F-84-42-A8-9E-45-99-35",
+          "value": true,
+          "displayValue": "In Stock",
+          "productCount": 501,
+          "priority": 100
+        }
+      ],
+      "facetType": 10
+    },
+    {
+      "identifier": "categories",
+      "displayName": "Toilets",
+      "priority": 10000,
+      "options": [
+        {
+          "identifier": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+          "value": "/toilets/back-to-wall-toilets/",
+          "displayValue": "Back To Wall Toilets",
+          "priority": 0,
+          "linkSlug": "/toilets/back-to-wall-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "c0362fb9-95fc-43c1-98be-17f4e46a7f2b-2988:en-GB",
+          "value": "/toilets/bidets/",
+          "displayValue": "Bidets",
+          "priority": 100,
+          "linkSlug": "/toilets/bidets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "2a933daf-9d27-483d-a7c0-ea96dcaf7b5e-2975:en-GB",
+          "value": "/toilets/black-toilets/",
+          "displayValue": "Black Toilets",
+          "priority": 200,
+          "linkSlug": "/toilets/black-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "ac8bf4bf-6a3c-4a38-91e6-bcf1d1e8bb6e-297C:en-GB",
+          "value": "/toilets/cloakroom-toilet/",
+          "displayValue": "Cloakroom Toilets",
+          "priority": 300,
+          "linkSlug": "/toilets/cloakroom-toilet/",
+          "childOptions": []
+        },
+        {
+          "identifier": "a5222eb0-152c-4d05-ab5f-765e70801d9e-2976:en-GB",
+          "value": "/toilets/close-coupled-toilet/",
+          "displayValue": "Close Coupled Toilets",
+          "priority": 400,
+          "linkSlug": "/toilets/close-coupled-toilet/",
+          "childOptions": []
+        },
+        {
+          "identifier": "4b214772-d6e6-47ca-868f-15449829e407-2984:en-GB",
+          "value": "/toilets/comfort-height-toilets/",
+          "displayValue": "Comfort Height Toilets",
+          "priority": 500,
+          "linkSlug": "/toilets/comfort-height-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "d7cad264-cd19-4c70-978f-0c4e4dec47fc-2978:en-GB",
+          "value": "/toilets/corner-toilets/",
+          "displayValue": "Corner Toilets",
+          "priority": 600,
+          "linkSlug": "/toilets/corner-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "a8426e03-05c7-4dc7-b324-892939ad14a1-297E:en-GB",
+          "value": "/toilets/japanese-toilets/",
+          "displayValue": "Japanese Toilets",
+          "priority": 700,
+          "linkSlug": "/toilets/japanese-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+          "value": "/toilets/modern-toilets/",
+          "displayValue": "Modern Toilets",
+          "priority": 800,
+          "linkSlug": "/toilets/modern-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "df8b4d1e-abb7-4014-8d45-95ddf175a778-2982:en-GB",
+          "value": "/toilets/rimless-toilets/",
+          "displayValue": "Rimless Toilets",
+          "priority": 900,
+          "linkSlug": "/toilets/rimless-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "e15b8c66-b3d3-4607-bafc-736a3349d77a-2996:en-GB",
+          "value": "/toilets/toilet-and-sink-combos/",
+          "displayValue": "Toilet & Sink Combos",
+          "priority": 1000,
+          "linkSlug": "/toilets/toilet-and-sink-combos/",
+          "childOptions": []
+        },
+        {
+          "identifier": "126bbf1b-8a2d-4a6a-8672-b528b5c26e00-298A:en-GB",
+          "value": "/toilets/traditional-toilets/",
+          "displayValue": "Traditional Toilets",
+          "priority": 1100,
+          "linkSlug": "/toilets/traditional-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "8a72d5c4-6f1b-40ac-84e6-a667dbcdc63e-2972:en-GB",
+          "value": "/toilets/urinals/",
+          "displayValue": "Urinals",
+          "priority": 1200,
+          "linkSlug": "/toilets/urinals/",
+          "childOptions": []
+        },
+        {
+          "identifier": "6b1b870f-ee48-4ce8-b91b-c62c3125213f-297A:en-GB",
+          "value": "/toilets/wall-hung-toilets/",
+          "displayValue": "Wall Hung Toilets",
+          "priority": 1300,
+          "linkSlug": "/toilets/wall-hung-toilets/",
+          "childOptions": []
+        },
+        {
+          "identifier": "5e4d6bff-6cc4-4289-b6fd-b9df46de7998-2994:en-GB",
+          "value": "/toilets/wc-unit/",
+          "displayValue": "WC Units",
+          "priority": 1400,
+          "linkSlug": "/toilets/wc-unit/",
+          "childOptions": []
+        }
+      ],
+      "facetType": 30
+    }
+  ],
+  "products": [
+    {
+      "id": "86b6ed51-7585-4955-8cb2-4a63d451fba1-9243F:en-GB",
+      "legacyId": "20476",
+      "legacyVariantId": "20476",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "METCC",
+      "productName": "Metro Rimless Close Coupled Modern Toilet + Soft Close Seat",
+      "slug": "/metro-modern-close-coupled-toilet-with-soft-close-seat",
+      "averageRating": 4.8,
+      "reviewsCount": 18,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "a7631f82-cf5c-479d-aa29-fb869991fb39-924D7",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/metro-modern-close-coupled-toilet-with-soft-close-seat/listingimages/metcc_med.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Metro Rimless Close Coupled Modern Toilet + Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 189.95,
+        "priceExcTax": 158.29,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": true,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "4fe7ea64-8e60-4a09-ad83-2a9f2822b65a-92B44",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 28.072
+    },
+    {
+      "id": "ae3365a8-419d-42b8-8f82-1cd39648330a-8715C:en-GB",
+      "legacyId": "6323",
+      "legacyVariantId": "6323",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "BTWPC1",
+      "productName": "Back To Wall Toilet with Soft Close Seat + Concealed Cistern",
+      "slug": "/back-to-wall-toilet-pan-d-shape-soft-close-seat-with-concealed-cistern",
+      "averageRating": 4.8,
+      "reviewsCount": 60,
+      "questionsCount": 20,
+      "image": {
+        "externalId": "e5d4b48c-c304-43ff-baba-0b16a7a040f6-871CE",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/back-to-wall-toilet-pan-d-shape-soft-close-seat-with-concealed-cistern/listingimages/btwpc1_n_m.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Back To Wall Toilet with Soft Close Seat + Concealed Cistern Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 159.95,
+        "priceExcTax": 133.29,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 25.10284
+    },
+    {
+      "id": "4cf657b4-7128-43a8-af0a-5e43fbee0459-881EF:en-GB",
+      "legacyId": "12826",
+      "legacyVariantId": "12826",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "MSPT",
+      "productName": "Pro 600 Modern Short Projection Toilet + Soft Close Seat",
+      "slug": "/modern-short-projection-toilet-with-soft-close-seat",
+      "averageRating": 4.8,
+      "reviewsCount": 19,
+      "questionsCount": 22,
+      "image": {
+        "externalId": "97b18439-fa9f-415b-9d9b-8586213b9266-88220",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/modern-short-projection-toilet-with-soft-close-seat/listingimages/lipro600modernshortprojectiontoiletwithsoftcloseseatprod.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Pro 600 Modern Short Projection Toilet with Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 199.95,
+        "priceExcTax": 166.63,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 23.866575
+    },
+    {
+      "id": "a41f8d07-4d0f-4866-8d2e-b1c6a6dcb02e-10BB0:en-GB",
+      "legacyId": "8749",
+      "legacyVariantId": "8749",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "NCH606-NTS007",
+      "productName": "Harmony Back to Wall Toilet + Soft Close Seat",
+      "slug": "/premier-harmony-back-to-wall-pan-with-soft-close-seat-nch306",
+      "averageRating": 4.8,
+      "reviewsCount": 5,
+      "questionsCount": 5,
+      "image": {
+        "externalId": "f2647626-d24e-4776-828a-d7145f129be4-10BEB",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/premier-harmony-back-to-wall-pan-with-soft-close-seat-nch306/listingimages/linch606nts007_p.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Premier Harmony Back to Wall Toilet + Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 139.95,
+        "priceExcTax": 116.63,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "291656aa-d63f-4a0a-856a-b9267a186730-3AFD:en-GB",
+        "slug": "/brands/premier",
+        "name": "Nuie",
+        "brandImage": {
+          "externalId": "5975ceef-90cb-4c25-9941-2eed0ef0f521-3AFC",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/premier/logoimages/nuie_logo.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 23.594933
+    },
+    {
+      "id": "18b84ee8-d4df-463a-84a0-f52ce95f7fc7-83AE9:en-GB",
+      "legacyId": "31434",
+      "legacyVariantId": "31434",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "ARZBTWCC",
+      "productName": "Arezzo BTW Close Coupled Toilet + Soft Close Seat",
+      "slug": "/arezzo-btw-close-coupled-toilet-with-soft-close-seat",
+      "averageRating": 4.5,
+      "reviewsCount": 4,
+      "questionsCount": 18,
+      "image": {
+        "externalId": "dab9ebd4-1ded-4aba-8916-ef2993a4ee17-9A710",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/arezzo-btw-close-coupled-toilet-with-soft-close-seat/mainimages/arzbtwcc_lrg3.png",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Arezzo BTW Close Coupled Toilet + Soft Close Seat"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "wasPriceIncTax": 249.95,
+        "wasPriceExcTax": 208.29,
+        "priceIncTax": 199.95,
+        "priceExcTax": 166.63,
+        "isOnPromotion": true,
+        "discountPercentage": 20.0
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": true,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "22d7a919-37a0-4476-94ac-5445a7171b5c-3EAE:en-GB",
+        "slug": "/brands/arezzo",
+        "name": "Arezzo",
+        "brandImage": {
+          "externalId": "c6837605-ecbc-4e08-8bfd-10532033d354-3EAD",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/arezzo/logoimages/arezzo_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 23.409065
+    },
+    {
+      "id": "8be7d818-82a0-4b5e-aea7-f40dba3698d0-834B1:en-GB",
+      "legacyId": "22142",
+      "legacyVariantId": "22142",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "VCCWC",
+      "productName": "Venice Modern Toilet + Soft Close Seat",
+      "slug": "/venice-modern-toilet-with-soft-close-seat",
+      "averageRating": 4.5,
+      "reviewsCount": 10,
+      "questionsCount": 14,
+      "image": {
+        "externalId": "6ea742c9-f7ce-4c98-af4b-49a7e3fab95e-83536",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/venice-modern-toilet-with-soft-close-seat/listingimages/vccwc_med.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Venice Modern Toilet + Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "wasPriceIncTax": 199.95,
+        "wasPriceExcTax": 166.63,
+        "priceIncTax": 169.95,
+        "priceExcTax": 141.63,
+        "isOnPromotion": true
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "2035a387-a97a-4ee3-ad37-3ba599ae9291-3C13:en-GB",
+        "slug": "/brands/venice",
+        "name": "Venice",
+        "brandImage": {
+          "externalId": "5f27bdc0-1501-44b1-bcec-3270acef5ec9-3C12",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/venice/logoimages/venice_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 23.026014
+    },
+    {
+      "id": "8ffa8405-345d-4514-9122-50057421a5e9-39341:en-GB",
+      "legacyId": "28088",
+      "legacyVariantId": "28088",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "ALP350",
+      "productName": "Alps Modern Rimless Short Projection Toilet + Soft Closing Seat",
+      "slug": "/alps-modern-short-projection-toilet-soft-closing-seat",
+      "averageRating": 4.9,
+      "reviewsCount": 16,
+      "questionsCount": 11,
+      "image": {
+        "externalId": "1eddbac8-ac50-4829-ba69-d5d6986f4119-39405",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/alps-modern-short-projection-toilet-soft-closing-seat/listingimages/alp350_n_med.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Alps Modern Rimless Short Projection Toilet + Soft Closing Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 189.95,
+        "priceExcTax": 158.29,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 22.332039
+    },
+    {
+      "id": "aaf5024f-72a7-4c4b-9271-0be88b1c26ca-97DEA:en-GB",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "RGCCT",
+      "productName": "Ringo Rimless Modern Toilet",
+      "slug": "/ringo-rimless-modern-toilet",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "75d07de1-8d00-42d9-bbaa-3b02c8d94a00-9AAE8",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/ringo-rimless-modern-toilet/mainimages/rgcct_lrg2.png",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Ringo Rimless Modern Toilet"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "wasPriceIncTax": 179.95,
+        "wasPriceExcTax": 149.96,
+        "priceIncTax": 149.95,
+        "priceExcTax": 124.96,
+        "isOnPromotion": true
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "ac8bf4bf-6a3c-4a38-91e6-bcf1d1e8bb6e-297C:en-GB",
+        "slug": "/toilets/cloakroom-toilet",
+        "name": "Cloakroom Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 22.308388
+    },
+    {
+      "id": "16673e84-c5a1-4d20-936a-6cd4c93f1447-6C9EA:en-GB",
+      "legacyId": "31047",
+      "legacyVariantId": "31047",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "GR-5IN1-AR",
+      "productName": "Grohe Solido Euro / Arena Complete WC 5 in 1 Pack + FREE ROBE HOOK",
+      "slug": "/grohe-solido-euro-arena-complete-wc-5-in-1-pack-39535000",
+      "averageRating": 4.8,
+      "reviewsCount": 4,
+      "questionsCount": 11,
+      "image": {
+        "externalId": "6bf81b24-cb97-4099-b803-fc1b8a59c5d7-99F92",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/grohe-solido-euro-arena-complete-wc-5-in-1-pack-39535000/listingimages/gr-5in1-ar_m.png",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Grohe Solido Euro / Arena Complete WC 5 in 1 Pack"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 549.95,
+        "priceExcTax": 458.29,
+        "isOnPromotion": false,
+        "monthlyFinanceEstimate": 20.62
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "53fa6be0-c364-48e1-bc82-735caa71b9ca-3A30:en-GB",
+        "slug": "/brands/grohe",
+        "name": "Grohe",
+        "brandImage": {
+          "externalId": "ddbcc14b-5d5c-46e8-a785-a1a55ed16fbf-3A2F",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/grohe/logoimages/grohe_logo1.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 22.184645
+    },
+    {
+      "id": "722e7e20-f98c-4de3-9743-037b5addbc2e-8F0A5:en-GB",
+      "legacyId": "22185",
+      "legacyVariantId": "22185",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "VBTWP",
+      "productName": "Venice Modern Back To Wall Pan + Soft Close Seat",
+      "slug": "/venice-modern-back-to-wall-pan-with-soft-close-seat",
+      "averageRating": 4.7,
+      "reviewsCount": 11,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "675a54a5-99ac-4308-9fdf-e20de896a9f9-8F129",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/venice-modern-back-to-wall-pan-with-soft-close-seat/listingimages/vbtwp_med.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Venice Modern Back To Wall Pan + Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 149.95,
+        "priceExcTax": 124.96,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "2035a387-a97a-4ee3-ad37-3ba599ae9291-3C13:en-GB",
+        "slug": "/brands/venice",
+        "name": "Venice",
+        "brandImage": {
+          "externalId": "5f27bdc0-1501-44b1-bcec-3270acef5ec9-3C12",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/venice/logoimages/venice_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 22.147957
+    },
+    {
+      "id": "78975ee3-0226-4c11-8c15-92760e061734-5CADE:en-GB",
+      "legacyId": "41305",
+      "legacyVariantId": "41305",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "NVBTW01",
+      "productName": "Nova Rimless Round Back To Wall Pan with Soft Close Seat",
+      "slug": "/nova-rimless-back-to-wall-pan-with-soft-close-seat",
+      "reviewsCount": 0,
+      "questionsCount": 1,
+      "image": {
+        "externalId": "4e8719c5-cd88-4c5b-87a2-dcb0ac0c007b-9482B",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/nova-rimless-back-to-wall-pan-with-soft-close-seat/listingimages/nvbtw01_med02.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Nova Rimless Round Back To Wall Pan with Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 179.95,
+        "priceExcTax": 149.96,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "885c7dd8-b126-4c33-8bca-da747b03a98b-3E12:en-GB",
+        "slug": "/brands/nova-bathrooms",
+        "name": "Nova Bathrooms",
+        "brandImage": {
+          "externalId": "2e94d2ed-a219-469a-8f02-666dfc11812f-3E11",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/nova-bathrooms/logoimages/nova_logo_n.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 21.943684
+    },
+    {
+      "id": "062e1ccb-3501-45cd-ab24-cd1531e52b53-4B54D:en-GB",
+      "legacyId": "34560",
+      "legacyVariantId": "34560",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "AZWNPF",
+      "productName": "Dual Flush Concealed WC Cistern with Wall Hung Frame + Arezzo Toilet",
+      "slug": "/dual-flush-concealed-wc-cistern-with-wall-hung-frame-arezzo-toilet",
+      "reviewsCount": 0,
+      "questionsCount": 15,
+      "image": {
+        "externalId": "dd0ea5ee-f0e9-4e11-b263-1e2cb9c9dce7-4B564",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/dual-flush-concealed-wc-cistern-with-wall-hung-frame-arezzo-toilet/mainimages/azwnpf_nl.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Dual Flush Concealed WC Cistern with Wall Hung Frame + Arezzo Toilet Large Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 339.95,
+        "priceExcTax": 283.29,
+        "isOnPromotion": false,
+        "monthlyFinanceEstimate": 12.74
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "22d7a919-37a0-4476-94ac-5445a7171b5c-3EAE:en-GB",
+        "slug": "/brands/arezzo",
+        "name": "Arezzo",
+        "brandImage": {
+          "externalId": "c6837605-ecbc-4e08-8bfd-10532033d354-3EAD",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/arezzo/logoimages/arezzo_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 21.14529
+    },
+    {
+      "id": "9df97b5e-4fef-4e7e-92aa-731c3d354891-858E1:en-GB",
+      "legacyId": "20545",
+      "legacyVariantId": "20545",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "ABTW",
+      "productName": "Alaska Back to Wall Toilet Pan + Soft Close Seat",
+      "slug": "/alaska-back-to-wall-toilet-pan-inc-soft-close-seat",
+      "averageRating": 4.9,
+      "reviewsCount": 15,
+      "questionsCount": 8,
+      "image": {
+        "externalId": "32d1b548-9d62-42a7-a941-ab3c9c62ed98-8594E",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/alaska-back-to-wall-toilet-pan-inc-soft-close-seat/listingimages/lialaskabacktowalltoiletpanincsoftcloseseatp.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Alaska Back to Wall Toilet Pan inc Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 133.88,
+        "priceExcTax": 111.57,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": true,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "5c690c91-ae3d-459c-9f60-a80447f63c80-3C69:en-GB",
+        "slug": "/brands/alaska",
+        "name": "Alaska",
+        "brandImage": {
+          "externalId": "c99a0bf9-e138-4af5-9f71-e4bec8e19bcd-3C68",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/alaska/logoimages/alaskan.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 20.762642
+    },
+    {
+      "id": "aab8e4fa-b195-4990-b4b5-871102416cb8-29F0E:en-GB",
+      "legacyId": "21731",
+      "legacyVariantId": "21731",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "OR600WC",
+      "productName": "Orion Modern Short Projection Toilet + Soft Close Seat",
+      "slug": "/orion-modern-short-projection-toilet-inc-soft-close-seat",
+      "averageRating": 5.0,
+      "reviewsCount": 5,
+      "questionsCount": 6,
+      "image": {
+        "externalId": "f6626dde-cb34-436a-a4d3-453504d32027-9C1B9",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/orion-modern-short-projection-toilet-inc-soft-close-seat/mainimages/or600wc_l2.png",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Orion Modern Short Projection Toilet + Soft Close Seat"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 199.95,
+        "priceExcTax": 166.63,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": true,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": true
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 20.480978
+    },
+    {
+      "id": "e14ca11e-5c75-44cd-8d2a-c6a9d1f7b1d5-9517C:en-GB",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "METCCSLM",
+      "productName": "Metro Rimless Close Coupled Modern Toilet + Slim Soft Close Seat",
+      "slug": "/metro-rimless-close-coupled-modern-toilet-slim-soft-close-seat",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "46056b29-4976-45b3-b941-3e5df913dc1c-9517E",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/metro-rimless-close-coupled-modern-toilet-slim-soft-close-seat/mainimages/metccslm_lrg.jpg",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Metro Rimless Close Coupled Modern Toilet + Slim Soft Close Seat"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 229.95,
+        "priceExcTax": 191.63,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 20.450848
+    },
+    {
+      "id": "8ef37083-14f4-4c67-834a-7c1f1432bba4-7DA80:en-GB",
+      "legacyId": "21186",
+      "legacyVariantId": "10809",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "BR-CC",
+      "productName": "Brooklyn Modern Square Toilet",
+      "slug": "/brooklyn-modern-square-toilet",
+      "averageRating": 4.9,
+      "reviewsCount": 13,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "aa6a744d-7e4d-4152-aa22-b1238936732c-93BF1",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brooklyn-modern-square-toilet/listingimages/brwcmed01.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Brooklyn Modern Square Toilet with Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 189.95,
+        "priceExcTax": 158.29,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": true,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": true
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "e6cb1627-aeee-4921-bb88-f40d25c1f3c4-3CCF:en-GB",
+        "slug": "/brands/brooklyn-bathrooms",
+        "name": "Brooklyn Bathrooms",
+        "brandImage": {
+          "externalId": "aab67b2d-bb97-4a63-a3c2-4d0940d328ff-3CCE",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/brooklyn-bathrooms/logoimages/brooklyn_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 20.304356
+    },
+    {
+      "id": "013794fa-1795-4d1e-8345-0a913b059bca-49C3C:en-GB",
+      "legacyId": "33920",
+      "legacyVariantId": "33920",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "CRWC",
+      "productName": "Cove Rimless Close Coupled Toilet + Soft Close Seat",
+      "slug": "/sofia-rimless-close-coupled-toilet-soft-close-seat",
+      "averageRating": 5.0,
+      "reviewsCount": 2,
+      "questionsCount": 6,
+      "image": {
+        "externalId": "07907f22-df6e-48cc-9202-16f76dad6518-49C68",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/sofia-rimless-close-coupled-toilet-soft-close-seat/listingimages/crwcnm.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Cove Rimless Close Coupled Toilet + Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 189.95,
+        "priceExcTax": 158.29,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "1db0da96-6885-4c70-a0f9-248d7e16deca-39EE:en-GB",
+        "slug": "/brands/cove",
+        "name": "Cove",
+        "brandImage": {
+          "externalId": "a8e9b9de-6ae1-47eb-9c63-f03f00422fb4-39ED",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/cove/logoimages/cove_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.922356
+    },
+    {
+      "id": "0ef799bb-bcc0-4652-aded-9a032db279e8-878C8:en-GB",
+      "legacyId": "41123",
+      "legacyVariantId": "41123",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "CUBO-BTW",
+      "productName": "Cubo Back to Wall Pan with Soft Close Seat",
+      "slug": "/cubo-back-to-wall-pan-with-soft-close-seat",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "bf0fac69-80b2-4260-98ca-e72f968f4709-9AABB",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/cubo-back-to-wall-pan-with-soft-close-seat/mainimages/cubo-btw_l2.png",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Cubo Back to Wall Pan with Soft Close Seat"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 119.95,
+        "priceExcTax": 99.96,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.881865
+    },
+    {
+      "id": "a97f520f-922d-4a98-8b1b-4d88e1a29bcb-8FD61:en-GB",
+      "legacyId": "19869",
+      "legacyVariantId": "10829",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "KES-CC-WHT",
+      "productName": "Keswick Traditional Close Coupled Toilet + Soft Close Seat",
+      "slug": "/keswick-traditional-close-coupled-toilet-with-soft-close-seat",
+      "averageRating": 4.7,
+      "reviewsCount": 15,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "fe469690-4aaf-4206-916f-173fd01c6cfa-8FDEF",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/keswick-traditional-close-coupled-toilet-with-soft-close-seat/listingimages/likeswicktraditionalclosecoupledtoiletwithsoftcloseseatprod.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Keswick Traditional Close Coupled Toilet with Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 209.95,
+        "priceExcTax": 174.96,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": true,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "variationListingLabel": "More Colours",
+        "isNew": false,
+        "hasMoreOptions": true
+      },
+      "defaultCategory": {
+        "externalId": "fe4e698a-b48a-47bc-ae63-2a783323abe1-298C:en-GB",
+        "slug": "/toilets/traditional-toilets/traditional-closed-coupled-toilets",
+        "name": "Traditional Close Coupled Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets/traditional-toilets",
+            "externalId": "126bbf1b-8a2d-4a6a-8672-b528b5c26e00-298A:en-GB",
+            "name": "Traditional Toilets",
+            "depth": 1
+          },
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 2
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "53b14d25-ccb5-4d36-8dcf-415d9e047b2c-3DB7:en-GB",
+        "slug": "/brands/keswick",
+        "name": "Keswick",
+        "brandImage": {
+          "externalId": "dc0ea946-7492-441e-ac02-52e06b88de23-3DB6",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/keswick/logoimages/keswick_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.799015
+    },
+    {
+      "id": "facb2b8a-4ea7-4da6-8a0c-61e90d444472-4346D:en-GB",
+      "legacyId": "31618",
+      "legacyVariantId": "31618",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "SE2IN1",
+      "productName": "Seattle Combined Two-In-One Wash Basin + Toilet",
+      "slug": "/seattle-combined-two-in-one-wash-basin-toilet",
+      "averageRating": 4.6,
+      "reviewsCount": 7,
+      "questionsCount": 33,
+      "image": {
+        "externalId": "aee76d00-46ff-48d0-99e3-5bceb273c396-434A5",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/seattle-combined-two-in-one-wash-basin-toilet/mainimages/se2in1_nl.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Seattle Combined Two-In-One Wash Basin + Toilet Large Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 269.95,
+        "priceExcTax": 224.96,
+        "isOnPromotion": false,
+        "monthlyFinanceEstimate": 10.12
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.712017
+    },
+    {
+      "id": "2994b60f-ca43-4c78-97ea-41df8f9db254-951E8:en-GB",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "AZSMWC",
+      "productName": "Arezzo Smart Toilet with Bidet Wash Function, Heated Seat + Dryer",
+      "slug": "/arezzo-smart-toilet-with-bidet-wash-function-heated-seat-dryer",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "db0c4e0d-239b-4682-a575-00c4b94dcc93-951F7",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/arezzo-smart-toilet-with-bidet-wash-function-heated-seat-dryer/mainimages/azsmwc_l.jpg",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Arezzo Smart Toilet with Bidet Wash Function, Heated Seat + Dryer"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 449.95,
+        "priceExcTax": 374.96,
+        "isOnPromotion": false,
+        "monthlyFinanceEstimate": 16.87
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "22d7a919-37a0-4476-94ac-5445a7171b5c-3EAE:en-GB",
+        "slug": "/brands/arezzo",
+        "name": "Arezzo",
+        "brandImage": {
+          "externalId": "c6837605-ecbc-4e08-8bfd-10532033d354-3EAD",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/arezzo/logoimages/arezzo_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.710386
+    },
+    {
+      "id": "8e1bf874-aca8-4413-9c7c-6f5df24640dc-49C02:en-GB",
+      "legacyId": "33916",
+      "legacyVariantId": "33916",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "TRRWC",
+      "productName": "Toreno Round Rimless Close Coupled Toilet + Soft Close Seat",
+      "slug": "/turin-round-rimless-close-coupled-toilet-soft-close-seat",
+      "reviewsCount": 0,
+      "questionsCount": 3,
+      "image": {
+        "externalId": "452467c6-8d8e-44ea-8502-b8ddaed5f4ba-49C36",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/turin-round-rimless-close-coupled-toilet-soft-close-seat/listingimages/trrwc_med.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Turin Round Rimless Close Coupled Toilet + Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 219.95,
+        "priceExcTax": 183.29,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": true,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "94b28d12-f516-469f-943b-dd00e527c053-3BC7:en-GB",
+        "slug": "/brands/turin",
+        "name": "Toreno",
+        "brandImage": {
+          "externalId": "14ed1670-ef94-44b7-86f2-51d5ee1bda51-3BC6",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/turin/logoimages/toreno_logo.png",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.70449
+    },
+    {
+      "id": "8035ae6d-95fa-4a1d-ba97-f5aa483fc0d3-9B448:en-GB",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "EVO702R-SP",
+      "productName": "Compact Dual Flush Concealed WC Cistern with Wall Hung Frame with Round Button Chrome Flush & Modern Toilet",
+      "slug": "/compact-dual-flush-concealed-wc-cistern-with-wall-hung-frame-with-round-button-chrome-flush-modern-toilet",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "8319cd41-f91b-4776-853a-0091b77510c6-9B488",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/compact-dual-flush-concealed-wc-cistern-with-wall-hung-frame-with-round-button-chrome-flush-modern-toilet/listingimages/clara-wall-hung-toilet.png",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Compact Dual Flush Concealed WC Cistern with Wall Hung Frame with Round Button Chrome Flush & Modern Toilet"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 319.95,
+        "priceExcTax": 266.63,
+        "isOnPromotion": false,
+        "monthlyFinanceEstimate": 11.99
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": true,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": true
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.548458
+    },
+    {
+      "id": "790413a7-31e1-4144-976a-ebe85c4bad69-64B77:en-GB",
+      "legacyId": "44329",
+      "legacyVariantId": "44329",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "VBSBCCOB",
+      "productName": "Villeroy and Boch Subway Open Back Close Coupled Toilet + Soft Close Seat",
+      "slug": "/villeroy-and-boch-subway-2-0-open-back-close-coupled-toilet-soft-close-seat",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "b273b37a-4d91-492a-89da-1e529f8e5c53-64B8E",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/villeroy-and-boch-subway-2-0-open-back-close-coupled-toilet-soft-close-seat/listingimages/vbsbccob_m.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Villeroy and Boch Subway 2.0 Open Back Close Coupled Toilet + Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "wasPriceIncTax": 699.95,
+        "wasPriceExcTax": 583.29,
+        "priceIncTax": 399.95,
+        "priceExcTax": 333.29,
+        "isOnPromotion": true,
+        "discountPercentage": 43.0,
+        "monthlyFinanceEstimate": 14.99
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "a5222eb0-152c-4d05-ab5f-765e70801d9e-2976:en-GB",
+        "slug": "/toilets/close-coupled-toilet",
+        "name": "Close Coupled Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "506bd850-d0fa-4ba2-b964-b3bfbd3622f5-3E84:en-GB",
+        "slug": "/brands/villeroy-and-boch",
+        "name": "Villeroy & Boch",
+        "brandImage": {
+          "externalId": "794b032a-06c0-454d-9f6d-be2ab9d81c2e-3E83",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/villeroy-and-boch/logoimages/villeroybochlogo.png",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.511969
+    },
+    {
+      "id": "5ea2991b-89cf-4a08-86e7-e6318edf3dc1-8714F:en-GB",
+      "legacyId": "4144",
+      "legacyVariantId": "4144",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "BTWPC2",
+      "productName": "Ceramic BTW Toilet Pan with Soft-Close Seat + Dual Flush Concealed Cistern",
+      "slug": "/ultra-standard-ceramic-toilet-pan-with-soft-close-seat-dual-flush-concealed-cistern",
+      "averageRating": 4.9,
+      "reviewsCount": 13,
+      "questionsCount": 3,
+      "image": {
+        "externalId": "50f2b1c4-8a7a-4df6-a5ec-b945482fc4d6-871B9",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/ultra-standard-ceramic-toilet-pan-with-soft-close-seat-dual-flush-concealed-cistern/listingimages/btwpc2nm.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Ceramic BTW Toilet Pan with Soft-Close Seat + Dual Flush Concealed Cistern Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 139.95,
+        "priceExcTax": 116.63,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "291656aa-d63f-4a0a-856a-b9267a186730-3AFD:en-GB",
+        "slug": "/brands/premier",
+        "name": "Nuie",
+        "brandImage": {
+          "externalId": "5975ceef-90cb-4c25-9941-2eed0ef0f521-3AFC",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/premier/logoimages/nuie_logo.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.473816
+    },
+    {
+      "id": "e2a50688-0a4f-48e1-96f7-1df651a8b81a-5BF3A:en-GB",
+      "legacyId": "41007",
+      "legacyVariantId": "41007",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "GR-4IN1-EUAR",
+      "productName": "Grohe Solido Euro / Arena Cosmo Complete WC 4-in-1 Pack",
+      "slug": "/grohe-solido-euro-arena-cosmo-complete-wc-4-in-1-pack",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "08c41662-3b4d-4f09-a517-9d3ea1c61036-5BF53",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/grohe-solido-euro-arena-cosmo-complete-wc-4-in-1-pack/listingimages/gr4in1euar_m.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Grohe Solido Euro / Arena Cosmo Complete WC 4-in-1 Pack Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "E",
+        "eta": "2023-07-26T00:00:00Z"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 549.95,
+        "priceExcTax": 458.29,
+        "isOnPromotion": false,
+        "monthlyFinanceEstimate": 20.62
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "6b1b870f-ee48-4ce8-b91b-c62c3125213f-297A:en-GB",
+        "slug": "/toilets/wall-hung-toilets",
+        "name": "Wall Hung Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "53fa6be0-c364-48e1-bc82-735caa71b9ca-3A30:en-GB",
+        "slug": "/brands/grohe",
+        "name": "Grohe",
+        "brandImage": {
+          "externalId": "ddbcc14b-5d5c-46e8-a785-a1a55ed16fbf-3A2F",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/grohe/logoimages/grohe_logo1.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.436407
+    },
+    {
+      "id": "7b5d08fd-9fa0-4d7f-b44e-649f7b22a798-8FA23:en-GB",
+      "legacyId": "44465",
+      "legacyVariantId": "44465",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "AZ009SL",
+      "productName": "Arezzo Back to Wall Toilet + Soft Close Seat",
+      "slug": "/nuie-solace-back-to-wall-toilet-slim-soft-close-seat",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "aa69860d-1d23-4c24-bb49-89091c5fb174-9BE8F",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/nuie-solace-back-to-wall-toilet-slim-soft-close-seat/listingimages/az009sl_med1.png",
+        "priority": 0,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Arezzo Back to Wall Toilet + Soft Close Seat"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 199.95,
+        "priceExcTax": 166.63,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "22d7a919-37a0-4476-94ac-5445a7171b5c-3EAE:en-GB",
+        "slug": "/brands/arezzo",
+        "name": "Arezzo",
+        "brandImage": {
+          "externalId": "c6837605-ecbc-4e08-8bfd-10532033d354-3EAD",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/arezzo/logoimages/arezzo_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 19.428354
+    },
+    {
+      "id": "734588a3-df89-4112-a638-eac9e3d6708d-641A5:en-GB",
+      "legacyId": "44107",
+      "legacyVariantId": "44107",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "AZ233WMG",
+      "productName": "Arezzo Matt Grey Rimless Wall Hung Toilet incl. Soft Close Seat",
+      "slug": "/arezzo-matt-grey-rimless-wall-hung-toilet-incl-soft-close-seat",
+      "reviewsCount": 0,
+      "questionsCount": 0,
+      "image": {
+        "externalId": "e64bbd29-4a06-41d7-be81-209860358be4-641C0",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/arezzo-matt-grey-rimless-wall-hung-toilet-incl-soft-close-seat/listingimages/az233wmg_med.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Arezzo Matt Grey Rimless Wall Hung Toilet incl. Soft Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "D",
+        "stockLevel": 40
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 199.95,
+        "priceExcTax": 166.63,
+        "isOnPromotion": false,
+        "discountPercentage": 33.0
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": true,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "6b1b870f-ee48-4ce8-b91b-c62c3125213f-297A:en-GB",
+        "slug": "/toilets/wall-hung-toilets",
+        "name": "Wall Hung Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "22d7a919-37a0-4476-94ac-5445a7171b5c-3EAE:en-GB",
+        "slug": "/brands/arezzo",
+        "name": "Arezzo",
+        "brandImage": {
+          "externalId": "c6837605-ecbc-4e08-8bfd-10532033d354-3EAD",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/arezzo/logoimages/arezzo_logo_.jpg",
+          "priority": 100,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 18.970438
+    },
+    {
+      "id": "c4075dab-1930-420f-b4cc-1652c6a7c3b6-85258:en-GB",
+      "legacyId": "23508",
+      "legacyVariantId": "23508",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "SOLWCPAK",
+      "productName": "Solace Back to Wall Toilet with Soft Close Seat + Concealed Cistern",
+      "slug": "/solace-back-to-wall-toilet-with-soft-close-seat-concealed-cistern",
+      "reviewsCount": 0,
+      "questionsCount": 4,
+      "image": {
+        "externalId": "6c98d5fe-71a4-405b-a4b0-43773d8d99e3-85296",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/solace-back-to-wall-toilet-with-soft-close-seat-concealed-cistern/listingimages/solwcpak_m.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Solace Back to Wall Toilet with Soft Close Seat + Concealed Cistern Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 239.95,
+        "priceExcTax": 199.96,
+        "isOnPromotion": false
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "0e9689bc-f485-4971-bbf4-9e77d4e44944-2980:en-GB",
+        "slug": "/toilets/back-to-wall-toilets",
+        "name": "Back To Wall Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 18.90044
+    },
+    {
+      "id": "7a8daab1-63bb-4029-a03f-bfbf0386b283-10B62:en-GB",
+      "legacyId": "8738",
+      "legacyVariantId": "8738",
+      "cultureCode": "en-GB",
+      "isDefaultVariant": true,
+      "sku": "TORWCSC",
+      "productName": "Toronto BTW Close Coupled Toilet with Soft-Close Seat",
+      "slug": "/premier-marlow-btw-close-coupled-pan-cistern-with-soft-close-seat",
+      "averageRating": 5.0,
+      "reviewsCount": 4,
+      "questionsCount": 5,
+      "image": {
+        "externalId": "f41d9e53-ad36-4c7d-85be-8a11202989f2-94D5F",
+        "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/premier-marlow-btw-close-coupled-pan-cistern-with-soft-close-seat/listingimages/torwcsc_med01.jpg",
+        "priority": 100,
+        "isDefault": false,
+        "attributes": {
+          "imageAltText": "Toronto BTW Close Coupled Toilet with Soft-Close Seat Medium Image"
+        }
+      },
+      "stockStatus": {
+        "status": "G"
+      },
+      "price": {
+        "currencyCode": "GBP",
+        "priceIncTax": 299.95,
+        "priceExcTax": 249.96,
+        "isOnPromotion": false,
+        "monthlyFinanceEstimate": 11.24
+      },
+      "attributes": {
+        "isApproved": false,
+        "isShownOnTv": false,
+        "isBestSeller": false,
+        "isFreeWaste": false,
+        "isPremium": false,
+        "isRecommended": false,
+        "isTrayIncluded": false,
+        "isBluetoothIncluded": false,
+        "isBatteryIncluded": false,
+        "isAntiSlipIncluded": false,
+        "isShortProjection": false,
+        "hasOneOutlet": false,
+        "hasTwoOutlets": false,
+        "hasThreeOutlets": false,
+        "isNew": false,
+        "hasMoreOptions": false
+      },
+      "defaultCategory": {
+        "externalId": "e8332ada-f643-456c-9e32-3726b9a8d825-2986:en-GB",
+        "slug": "/toilets/modern-toilets",
+        "name": "Modern Toilets",
+        "isDefault": true,
+        "ancestors": [
+          {
+            "slug": "/toilets",
+            "externalId": "6f09adc1-b19d-4a08-9029-1c5c71786026-2970:en-GB",
+            "name": "Toilets",
+            "depth": 1
+          }
+        ]
+      },
+      "brand": {
+        "externalId": "cceb92cf-6e35-4c4e-8105-0d8f354b2bac-3C26:en-GB",
+        "slug": "/brands/victorian-plumbing",
+        "name": "Victorian Plumbing",
+        "brandImage": {
+          "externalId": "2f2ed046-d710-4755-82b9-17911566c4c8-963D4",
+          "url": "https://images-nonprod.victorianplumbing.co.uk/uat/products/brands/victorian-plumbing/logoimages/vplogo.png",
+          "priority": 0,
+          "isDefault": false,
+          "attributes": {
+            "imageAltText": "Category logo image"
+          }
+        }
+      },
+      "score": 18.739075
+    }
+  ]
+}
