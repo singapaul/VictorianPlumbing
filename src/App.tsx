@@ -59,13 +59,8 @@ function App() {
     refetch,
   } = useInfiniteQuery<ApiResponse, Error>(["products"], fetchProductsData, {
     getNextPageParam: (lastPage, allPages) => {
-      // const { pagination } = lastPage;
-      // console.log(lastPage.products.length);
-      // console.log(allPages, allPages.length);
       const nextPage =
         lastPage.products.length === 10 ? allPages.length + 1 : undefined;
-      // console.log("the next page is: " + nextPage);
-      // const nextPageStart = pagination.from + pagination.size;
       return nextPage;
     },
     retry: 1,
@@ -86,12 +81,10 @@ function App() {
       ) {
         setIsFetching(true);
         fetchNextPage();
-        console.log(data);
       }
     };
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    // document.addEventListener("scroll", onScroll);
+
+    
     if (!isFetching) {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore

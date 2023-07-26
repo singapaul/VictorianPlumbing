@@ -3,7 +3,8 @@ MAJOR
 7. tidy up the card components
 8. Abstarct code into files
 9. loading spinner?
-10. Add in some filters/facets
+10. add line breaks to the form
+11. Add in some filters/facets
     a. Checkboxes for price can they take the data as a prop to see the no. results??
     b. width/color
     c. traditional or modern
