@@ -22,6 +22,7 @@ function App() {
     image: { url: string | undefined };
   }
 
+  const [isFetching, setIsFetching] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     search: "toilets",
     option: 1,
@@ -29,11 +30,11 @@ function App() {
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
-  const handleFormSubmit = async (data) => {
+  const handleFormSubmit = (data) => {
     setFormData(data);
   };
 
-  const fetchProductsData = async ({ pageParam = 1 }) => {
+  const fetchProductsData = async ({ pageParam = 0 }) => {
     return await fetchProducts(formData.search, formData.option, pageParam);
   };
 
@@ -46,10 +47,15 @@ function App() {
     error,
     refetch,
   } = useInfiniteQuery<ApiResponse, Error>(["products"], fetchProductsData, {
-    getNextPageParam: (lastPage) => {
-      const { pagination } = lastPage;
-      const nextPageStart = pagination.from + pagination.size;
-      return nextPageStart < pagination.total ? nextPageStart : undefined;
+    getNextPageParam: (lastPage, allPages) => {
+      // const { pagination } = lastPage;
+      console.log(lastPage.products.length);
+      console.log(allPages, allPages.length);
+      const nextPage =
+        lastPage.products.length === 10 ? allPages.length + 1 : undefined;
+      console.log("the next page is: " + nextPage);
+      // const nextPageStart = pagination.from + pagination.size;
+      return nextPage;
     },
     retry: 1,
     onError: (error) => {
@@ -58,34 +64,49 @@ function App() {
   });
 
   useEffect(() => {
-    refetch();
-  }, [formData, refetch]);
-
-  useEffect(() => {
-    const onScroll = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const onScroll = () => {
       const { scrollHeight, scrollTop, clientHeight } =
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        event.target.scrollingElement;
+        document.documentElement;
+
+      // if (scrollHeight - scrollTop <= clientHeight * 1.5) {
+      //   console.log("hwekfjwe");
+      //   fetchNextPage();
+      //   console.log(data);
+      // }
 
       if (
-        !isLoading &&
+        !isFetching &&
         hasNextPage &&
         scrollHeight - scrollTop <= clientHeight * 1.5
       ) {
+        setIsFetching(true);
         fetchNextPage();
+        console.log(data);
       }
     };
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    document.addEventListener("scroll", onScroll);
+    // document.addEventListener("scroll", onScroll);
+    if (!isFetching) {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      document.addEventListener("scroll", onScroll);
+    }
 
     return () => {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       document.removeEventListener("scroll", onScroll);
     };
-  }, [isLoading, hasNextPage, fetchNextPage]);
+  }, [hasNextPage, fetchNextPage, isFetching, isLoading]);
+
+  useEffect(() => {
+    setIsFetching(false);
+  }, [data]);
+
+  useEffect(() => {
+    refetch();
+  }, [formData, refetch]);
 
   if (isLoading) {
     return <div>Loading...</div>;
