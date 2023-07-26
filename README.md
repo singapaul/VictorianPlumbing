@@ -4,7 +4,7 @@
 3. Finish filters - DONE
 4. Infinite scroll - DONE
 5. Fix up types
-6. button component - DONE
+6. style secondary button component
 7. Abstarct code into files
 
 tidy up:

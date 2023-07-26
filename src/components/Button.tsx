@@ -2,9 +2,10 @@ type ButtonProps = {
   label: string;
   type: "submit" | "button";
   onClick?: () => void;
+  variant?: "primary" | "secondary";
 };
 
-const Button = ({ label, type, onClick }: ButtonProps) => {
+const Button = ({ label, type, onClick}: ButtonProps) => {
   return (
     <button
       type={type}

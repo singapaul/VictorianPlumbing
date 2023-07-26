@@ -1,19 +1,28 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Key, useEffect, useState } from "react";
 import { useInfiniteQuery } from "react-query";
 import { fetchProducts, ApiResponse } from "./api/fetchProducts";
+import Button from "./components/Button";
+import Filterbar from "./components/Filterbar";
 import Form from "./components/Form";
 import ProductCard from "./components/ProductCard";
 import ProductGrid from "./components/ProductGrid";
-import Filterbar from "./components/Filterbar";
-import "./App.css";
 import React from "react";
-import Button from "./components/Button";
 
 // @todo assess best practices. e.g. import order
 function App() {
-  // const [page, setPage] = useState(0);
-  const [formData, setFormData] = useState({
+  interface FormData {
+    search: string;
+    option: number;
+  }
+
+  interface Product {
+    productName: string;
+    brand: { name: string };
+    price: { priceIncTax: string };
+    image: { url: string | undefined };
+  }
+
+  const [formData, setFormData] = useState<FormData>({
     search: "toilets",
     option: 1,
   });
@@ -114,15 +123,7 @@ function App() {
             {data?.pages.map((page) => (
               <React.Fragment key={page.pagination.from}>
                 {page.products.map(
-                  (
-                    product: {
-                      productName: string;
-                      brand: { name: string };
-                      price: { priceIncTax: string };
-                      image: { url: string | undefined };
-                    },
-                    index: Key | null | undefined
-                  ) => (
+                  (product: Product, index: Key | null | undefined) => (
                     <ProductCard
                       key={index}
                       name={product.productName}
