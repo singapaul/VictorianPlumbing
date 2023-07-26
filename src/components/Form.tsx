@@ -1,30 +1,31 @@
-import { useState} from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
+import Button from "./Button";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function Form({ handleSubmitForm }: any) {
+interface FormProps {
+  handleSubmitForm: (formValues: { search: string; option: number }) => void;
+}
+
+export default function Form({ handleSubmitForm }: FormProps) {
   const [formValues, setFormValues] = useState({
-    search: "",
+    search: "toilets",
     option: 1,
   });
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  const handleChange = (event) => {
+  const handleChange = (
+    event: ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = event.target;
     setFormValues((prevValues) => ({ ...prevValues, [name]: value }));
   };
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    handleSubmitForm(formValues); // Call the parent's callback function and pass the formValues
+    handleSubmitForm(formValues); 
   };
 
   return (
     <div>
       <form onSubmit={handleSubmit} className="flex md:flex-col gap-4">
-        {/* Search Field */}
         <label className="block text-left">
           Search
           <input
@@ -49,12 +50,7 @@ export default function Form({ handleSubmitForm }: any) {
             <option value={4}>Largest discount</option>
           </select>
         </label>
-        <button
-          type="submit"
-          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Submit
-        </button>
+        <Button type="submit" label="Submit"/>
       </form>
     </div>
   );

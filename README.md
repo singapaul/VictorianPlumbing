@@ -1,11 +1,11 @@
 1. Sort out the filters and have them go through to the backend.
 2. Pagination
 
-3. Finish filters
-4. Infinite scroll
+3. Finish filters - DONE
+4. Infinite scroll - DONE
 5. Fix up types
-6. Error boundaries
-7. button component
+6. button component - DONE
+7. Abstarct code into files
 
 tidy up:
 

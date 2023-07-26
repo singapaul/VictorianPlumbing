@@ -35,15 +35,15 @@ interface Brand {
   name: string;
 }
 
-const fetchProducts = async (query: string, sortBy: number) => {
+const fetchProducts = async (query: string, sortBy: number, page: number) => {
   const apiUrl =
     "https://spanishinquisition.victorianplumbing.co.uk/interviews/listings";
   const apiKey = import.meta.env.VITE_API_KEY;
 
   const requestBody = {
     query,
-    pageNumber: 0,
-    size: 10, // Set the desired number of items per page
+    pageNumber: page,
+    size: 20, // Set the desired number of items per page
     additionalPages: 0,
     sort: sortBy,
   };

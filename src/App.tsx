@@ -1,12 +1,14 @@
-import { useEffect, useState } from "react";
-import { useQuery } from "react-query";
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+import { Key, useEffect, useState } from "react";
+import { useInfiniteQuery } from "react-query";
 import { fetchProducts, ApiResponse } from "./api/fetchProducts";
 import Form from "./components/Form";
 import ProductCard from "./components/ProductCard";
 import ProductGrid from "./components/ProductGrid";
 import Filterbar from "./components/Filterbar";
-import ErrorBoundary from "./components/ErrorBoundary";
 import "./App.css";
+import React from "react";
+import Button from "./components/Button";
 
 // @todo assess best practices. e.g. import order
 function App() {
@@ -16,48 +18,53 @@ function App() {
     option: 1,
   });
 
-  // Callback function to receive form data from the child
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   const handleFormSubmit = async (data) => {
     setFormData(data);
   };
-  // Use useEffect to trigger the refetch after formData is updated
 
-  // const [showSidebar, setShowSidebar] = useState(false);
-  const queryKey = ["products"];
-  // const queryKey = ["products", query, page];
+  const fetchProductsData = async ({ pageParam = 1 }) => {
+    return await fetchProducts(formData.search, formData.option, pageParam);
+  };
 
-  const { data, isLoading, isError, error, isSuccess, refetch } = useQuery<
-    ApiResponse,
-    Error
-  >(queryKey, () => fetchProducts(formData.search, formData?.option), {
+  const {
+    data,
+    fetchNextPage,
+    hasNextPage,
+    isLoading,
+    isError,
+    error,
+    refetch,
+  } = useInfiniteQuery<ApiResponse, Error>(["products"], fetchProductsData, {
+    getNextPageParam: (lastPage) => {
+      const { pagination } = lastPage;
+      const nextPageStart = pagination.from + pagination.size;
+      return nextPageStart < pagination.total ? nextPageStart : undefined;
+    },
     retry: 1,
     onError: (error) => {
       console.error("API Error:", error);
-      // You can display an error message here or take other actions as needed.
-    },
-  });
-
-  // Use the onSuccess callback to trigger the refetch
-  useQuery(queryKey, () => fetchProducts(formData.search, formData?.option), {
-    onSuccess: () => {
-      refetch();
     },
   });
 
   useEffect(() => {
-    let fetching = false;
+    refetch();
+  }, [formData, refetch]);
+
+  useEffect(() => {
     const onScroll = (event: React.ChangeEvent<HTMLInputElement>) => {
       const { scrollHeight, scrollTop, clientHeight } =
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         event.target.scrollingElement;
 
-      if (!fetching && scrollHeight - scrollTop <= clientHeight * 1.5) {
-        fetching = true;
-        console.log("hi");
-        fetching = false;
+      if (
+        !isLoading &&
+        hasNextPage &&
+        scrollHeight - scrollTop <= clientHeight * 1.5
+      ) {
+        fetchNextPage();
       }
     };
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -69,13 +76,13 @@ function App() {
       // @ts-ignore
       document.removeEventListener("scroll", onScroll);
     };
-  }, []);
+  }, [isLoading, hasNextPage, fetchNextPage]);
 
   if (isLoading) {
     return <div>Loading...</div>;
   }
 
-  if (isError && !isSuccess) {
+  if (isError && !data) {
     return (
       <>
         {" "}
@@ -85,9 +92,11 @@ function App() {
           </Filterbar>
           <div className="md:w-3/4 p-4">
             <div>Error: {error?.message}</div>
-            <button onClick={() => window.location.reload()}>
-              Refresh Page
-            </button>
+            <Button
+              label="Refresh Page"
+              type="button"
+              onClick={() => window.location.reload}
+            />
           </div>
         </div>
       </>
@@ -99,23 +108,33 @@ function App() {
       <div className="flex flex-col md:flex-row">
         <Filterbar>
           <Form handleSubmitForm={handleFormSubmit} />
-          {/* <input type="number" value={page} onChange={handleChange} />
-          <button onClick={submitForm}>Submit</button> */}
         </Filterbar>
         <div className="md:w-3/4 p-4">
-          <ErrorBoundary>
-            <ProductGrid>
-              {data?.products.map((product, index) => (
-                <ProductCard
-                  key={index}
-                  name={product.productName}
-                  brand={product.brand.name}
-                  price={product.price.priceIncTax}
-                  imageSource={product.image.url}
-                />
-              ))}
-            </ProductGrid>
-          </ErrorBoundary>
+          <ProductGrid>
+            {data?.pages.map((page) => (
+              <React.Fragment key={page.pagination.from}>
+                {page.products.map(
+                  (
+                    product: {
+                      productName: string;
+                      brand: { name: string };
+                      price: { priceIncTax: string };
+                      image: { url: string | undefined };
+                    },
+                    index: Key | null | undefined
+                  ) => (
+                    <ProductCard
+                      key={index}
+                      name={product.productName}
+                      brand={product.brand.name}
+                      price={product.price.priceIncTax}
+                      imageSource={product.image.url}
+                    />
+                  )
+                )}
+              </React.Fragment>
+            ))}
+          </ProductGrid>
         </div>
       </div>
     </>
