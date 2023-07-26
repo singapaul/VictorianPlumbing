@@ -1,7 +1,6 @@
 import axios from "axios";
 
 interface ApiResponse {
-  // Define your product properties here based on the API response
   pagination: Pagination;
   facets: unknown;
   products: Product[];
@@ -35,10 +34,35 @@ interface Brand {
   name: string;
 }
 
-const fetchProducts = async (query: string, sortBy: number, page: number) => {
+type fetchProductsProps = {
+  query: string;
+  sortBy: number;
+  page: number;
+  low: number;
+  high: number;
+};
+
+const fetchProducts = async ({
+  query,
+  sortBy,
+  page,
+  high,
+  low,
+}: fetchProductsProps) => {
   const apiUrl =
     "https://spanishinquisition.victorianplumbing.co.uk/interviews/listings";
   const apiKey = import.meta.env.VITE_API_KEY;
+
+  const priceTemplate = {
+    prices: [
+      {
+        value: {
+          gte: low,
+          lte: high,
+        },
+      },
+    ],
+  };
 
   const requestBody = {
     query: query,
@@ -46,9 +70,10 @@ const fetchProducts = async (query: string, sortBy: number, page: number) => {
     size: 10,
     additionalPages: 0,
     sort: sortBy,
+    facets: priceTemplate,
   };
 
-  console.log(requestBody);
+  // console.log(requestBody);
 
   try {
     const response = await axios.post<ApiResponse>(
@@ -56,7 +81,7 @@ const fetchProducts = async (query: string, sortBy: number, page: number) => {
       requestBody
     );
 
-    console.log(response.data);
+    // console.log(response.data);
     return response.data;
   } catch (error) {
     // Handle the API error here

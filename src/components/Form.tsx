@@ -20,7 +20,7 @@ export default function Form({ handleSubmitForm }: FormProps) {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    handleSubmitForm(formValues); 
+    handleSubmitForm(formValues);
   };
 
   return (
@@ -50,7 +50,8 @@ export default function Form({ handleSubmitForm }: FormProps) {
             <option value={4}>Largest discount</option>
           </select>
         </label>
-        <Button type="submit" label="Submit" variant="secondary"/>
+
+        <Button type="submit" label="Submit" variant="secondary" />
       </form>
     </div>
   );

@@ -3,16 +3,19 @@ import { useInfiniteQuery } from "react-query";
 import { fetchProducts, ApiResponse } from "./api/fetchProducts";
 import Button from "./components/Button";
 import Filterbar from "./components/Filterbar";
-import Form from "./components/Form";
+// import Form from "./components/Form";
 import ProductCard from "./components/ProductCard";
 import ProductGrid from "./components/ProductGrid";
 import React from "react";
+import Formy from "./components/Formy";
 
 // @todo assess best practices. e.g. import order
 function App() {
   interface FormData {
     search: string;
     option: number;
+    low: number;
+    high: number;
   }
 
   interface Product {
@@ -26,6 +29,8 @@ function App() {
   const [formData, setFormData] = useState<FormData>({
     search: "toilets",
     option: 1,
+    low: 0,
+    high: 10000,
   });
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -35,7 +40,13 @@ function App() {
   };
 
   const fetchProductsData = async ({ pageParam = 0 }) => {
-    return await fetchProducts(formData.search, formData.option, pageParam);
+    return await fetchProducts({
+      query: formData.search,
+      sortBy: formData.option,
+      page: pageParam,
+      high: formData.high,
+      low: formData.low,
+    });
   };
 
   const {
@@ -49,11 +60,11 @@ function App() {
   } = useInfiniteQuery<ApiResponse, Error>(["products"], fetchProductsData, {
     getNextPageParam: (lastPage, allPages) => {
       // const { pagination } = lastPage;
-      console.log(lastPage.products.length);
-      console.log(allPages, allPages.length);
+      // console.log(lastPage.products.length);
+      // console.log(allPages, allPages.length);
       const nextPage =
         lastPage.products.length === 10 ? allPages.length + 1 : undefined;
-      console.log("the next page is: " + nextPage);
+      // console.log("the next page is: " + nextPage);
       // const nextPageStart = pagination.from + pagination.size;
       return nextPage;
     },
@@ -67,12 +78,6 @@ function App() {
     const onScroll = () => {
       const { scrollHeight, scrollTop, clientHeight } =
         document.documentElement;
-
-      // if (scrollHeight - scrollTop <= clientHeight * 1.5) {
-      //   console.log("hwekfjwe");
-      //   fetchNextPage();
-      //   console.log(data);
-      // }
 
       if (
         !isFetching &&
@@ -118,7 +123,8 @@ function App() {
         {" "}
         <div className="flex flex-col md:flex-row">
           <Filterbar>
-            <Form handleSubmitForm={handleFormSubmit} />
+            {/* <Form handleSubmitForm={handleFormSubmit} /> */}
+            <Formy handleSubmitForm={handleFormSubmit} />
           </Filterbar>
           <div className="md:w-3/4 p-4">
             <div>Error: {error?.message}</div>
@@ -137,7 +143,7 @@ function App() {
     <>
       <div className="flex flex-col md:flex-row">
         <Filterbar>
-          <Form handleSubmitForm={handleFormSubmit} />
+          <Formy handleSubmitForm={handleFormSubmit} />
         </Filterbar>
         <div className="md:w-3/4 p-4">
           <ProductGrid>
