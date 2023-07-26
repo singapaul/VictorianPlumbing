@@ -1,5 +1,5 @@
-1. Sort out the filters and have them go through to the backend.
-2. Pagination
+1. Sort out the filters and have them go through to the backend. - DONE
+2. Pagination - DONE
 
 3. Finish filters - DONE
 4. Infinite scroll - DONE
