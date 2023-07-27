@@ -1,7 +1,6 @@
-import { ReactNode, useEffect } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import Button from "./Button";
 import scrollToTop from "../utils/scrollToTop";
-import { useState } from "react";
 
 type FilterbarProps = {
   children: ReactNode;
