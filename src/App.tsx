@@ -1,29 +1,15 @@
 import { Key, useEffect, useState } from "react";
 import { useInfiniteQuery } from "react-query";
 import { fetchProducts, ApiResponse } from "./api/fetchProducts";
-import Button from "./components/Button";
+import { FormData, Product } from "./types/types";
 import Filterbar from "./components/Filterbar";
-// import Form from "./components/Form";
 import ProductCard from "./components/ProductCard";
 import ProductGrid from "./components/ProductGrid";
 import React from "react";
-import Formy from "./components/Formy";
+import Form from "./components/Form";
 
 // @todo assess best practices. e.g. import order
 function App() {
-  interface FormData {
-    search: string;
-    option: number;
-    low: number;
-    high: number;
-  }
-
-  interface Product {
-    productName: string;
-    brand: { name: string };
-    price: { priceIncTax: string };
-    image: { url: string | undefined };
-  }
 
   const [isFetching, setIsFetching] = useState(false);
   const [formData, setFormData] = useState<FormData>({
@@ -84,7 +70,6 @@ function App() {
       }
     };
 
-    
     if (!isFetching) {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
@@ -110,22 +95,18 @@ function App() {
     return <div>Loading...</div>;
   }
 
-  if (isError && !data) {
+  if (isError) {
     return (
       <>
         {" "}
         <div className="flex flex-col md:flex-row">
           <Filterbar>
             {/* <Form handleSubmitForm={handleFormSubmit} /> */}
-            <Formy handleSubmitForm={handleFormSubmit} />
+            <Form handleSubmitForm={handleFormSubmit} />
           </Filterbar>
           <div className="md:w-3/4 p-4">
             <div>Error: {error?.message}</div>
-            <Button
-              label="Refresh Page"
-              type="button"
-              onClick={() => window.location.reload}
-            />
+            <p>please reload page</p>
           </div>
         </div>
       </>
@@ -136,7 +117,7 @@ function App() {
     <>
       <div className="flex flex-col md:flex-row">
         <Filterbar>
-          <Formy handleSubmitForm={handleFormSubmit} />
+          <Form handleSubmitForm={handleFormSubmit} />
         </Filterbar>
         <div className="md:w-3/4 p-4">
           <ProductGrid>

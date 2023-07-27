@@ -1,46 +1,5 @@
 import axios from "axios";
-
-interface ApiResponse {
-  pagination: Pagination;
-  facets: unknown;
-  products: Product[];
-}
-
-type Pagination = {
-  from: number;
-  size: number;
-  sortType: number;
-  total: number;
-};
-
-interface Product {
-  id: string;
-  productName: string;
-  image: Image;
-  price: Price;
-  brand: Brand;
-}
-
-interface Price {
-  currencyCode: "string";
-  priceIncTax: "string";
-}
-
-interface Image {
-  url: string;
-}
-
-interface Brand {
-  name: string;
-}
-
-type fetchProductsProps = {
-  query: string;
-  sortBy: number;
-  page: number;
-  low: number;
-  high: number;
-};
+import { ApiResponse, fetchProductsProps } from "./types";
 
 const fetchProducts = async ({
   query,
@@ -72,8 +31,6 @@ const fetchProducts = async ({
     sort: sortBy,
     facets: priceTemplate,
   };
-
-  // console.log(requestBody);
 
   try {
     const response = await axios.post<ApiResponse>(
