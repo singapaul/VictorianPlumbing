@@ -14,19 +14,17 @@ export default function Form({ handleSubmitForm }: FormProps) {
   const [formValues, setFormValues] = useState({
     search: "toilets",
     option: 1,
-    priceRanges: [] as string[], // Initialize an empty array for selected price ranges
+    priceRanges: [] as string[],
   });
 
   const handleChange = (
     event: ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    const { name, value, type, checked } = event.target;
+    const { name, value, type } = event.target;
 
     if (type === "checkbox") {
-      // If the checkbox is checked, add the value to the priceRanges array
-      // If unchecked, remove the value from the priceRanges array
+      const checked = (event.target as HTMLInputElement).checked;
+
       const updatedPriceRanges = checked
         ? [...formValues.priceRanges, value]
         : formValues.priceRanges.filter((range) => range !== value);

@@ -8,7 +8,7 @@ import ProductGrid from "./components/ProductGrid";
 import React from "react";
 import Form from "./components/Form";
 
-// @todo assess best practices. e.g. import order
+//  assess best practices. e.g. import order
 function App() {
 
   const [isFetching, setIsFetching] = useState(false);
@@ -19,8 +19,8 @@ function App() {
     high: 10000,
   });
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
   const handleFormSubmit = (data) => {
     setFormData(data);
   };
@@ -71,14 +71,10 @@ function App() {
     };
 
     if (!isFetching) {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
       document.addEventListener("scroll", onScroll);
     }
 
     return () => {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
       document.removeEventListener("scroll", onScroll);
     };
   }, [hasNextPage, fetchNextPage, isFetching, isLoading]);
@@ -98,10 +94,8 @@ function App() {
   if (isError) {
     return (
       <>
-        {" "}
         <div className="flex flex-col md:flex-row">
           <Filterbar>
-            {/* <Form handleSubmitForm={handleFormSubmit} /> */}
             <Form handleSubmitForm={handleFormSubmit} />
           </Filterbar>
           <div className="md:w-3/4 p-4">

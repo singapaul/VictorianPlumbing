@@ -37,11 +37,8 @@ const fetchProducts = async ({
       apiUrl + `?apikey=${apiKey}`,
       requestBody
     );
-
-    // console.log(response.data);
     return response.data;
   } catch (error) {
-    // Handle the API error here
     console.error("API Error:", error);
     return Promise.reject(error);
   }

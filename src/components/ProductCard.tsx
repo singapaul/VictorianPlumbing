@@ -1,4 +1,4 @@
-// @todo placeholder image
+//  placeholder image
 
 type ProductCardProps = {
   name: string;
