@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ApiResponse, fetchProductsProps } from "./types";
+import { ApiResponse, fetchProductsProps } from "./apiTypes";
 
 const fetchProducts = async ({
   query,

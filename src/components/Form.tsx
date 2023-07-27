@@ -12,7 +12,7 @@ export type FormProps = {
 
 export default function Form({ handleSubmitForm }: FormProps) {
   const [formValues, setFormValues] = useState({
-    search: "toilets",
+    search: "",
     option: 1,
     priceRanges: [] as string[],
   });
