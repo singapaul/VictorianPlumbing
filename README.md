@@ -1,5 +1,4 @@
-4. squash commit
-5. fix ts-ignoress
+Quickstart guide
 
-Challenegs:
-React Query
+1. npm install
+2. npm run dev

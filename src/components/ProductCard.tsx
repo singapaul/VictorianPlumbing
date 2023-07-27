@@ -1,5 +1,3 @@
-//  placeholder image
-
 type ProductCardProps = {
   name: string;
   brand: string;

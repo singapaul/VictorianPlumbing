@@ -1,16 +1,14 @@
-import { Key, useEffect, useState } from "react";
+import React, { Key, useEffect, useState } from "react";
 import { useInfiniteQuery } from "react-query";
 import { fetchProducts, ApiResponse } from "./api/fetchProducts";
 import { FormData, Product } from "./types/types";
+import { FormProps } from "./components/Form";
 import Filterbar from "./components/Filterbar";
+import Form from "./components/Form";
 import ProductCard from "./components/ProductCard";
 import ProductGrid from "./components/ProductGrid";
-import React from "react";
-import Form from "./components/Form";
 
-//  assess best practices. e.g. import order
 function App() {
-
   const [isFetching, setIsFetching] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     search: "toilets",
@@ -19,10 +17,11 @@ function App() {
     high: 10000,
   });
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-  const handleFormSubmit = (data) => {
-    setFormData(data);
+  const handleFormSubmit: FormProps["handleSubmitForm"] = (data) => {
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      ...data,
+    }));
   };
 
   const fetchProductsData = async ({ pageParam = 0 }) => {

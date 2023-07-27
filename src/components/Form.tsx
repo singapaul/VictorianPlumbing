@@ -2,13 +2,13 @@ import { useState, ChangeEvent, FormEvent } from "react";
 import Button from "./Button";
 import extractMinMaxNumbers from "../utils/extractMinMax";
 
-interface FormProps {
+export type FormProps = {
   handleSubmitForm: (formValues: {
     search: string;
     option: number;
     priceRanges?: string[];
   }) => void;
-}
+};
 
 export default function Form({ handleSubmitForm }: FormProps) {
   const [formValues, setFormValues] = useState({
