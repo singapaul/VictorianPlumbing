@@ -32,4 +32,10 @@ export interface Brand {
   name: string;
 }
 
-
+export type fetchProductsProps = {
+  query: string;
+  sortBy: number;
+  page: number;
+  low: number;
+  high: number;
+};
