@@ -53,12 +53,26 @@ function App() {
       console.error("API Error:", error);
     },
   });
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  function debounce(cb, delay = 800) {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    let timeout;
+    return (...args) => {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        cb(...args);
+      }, delay);
+    };
+  }
 
   useEffect(() => {
-    const onScroll = () => {
+    const onScroll = debounce(() => {
       const { scrollHeight, scrollTop, clientHeight } =
         document.documentElement;
-
       if (
         !isFetching &&
         hasNextPage &&
@@ -67,8 +81,7 @@ function App() {
         setIsFetching(true);
         fetchNextPage();
       }
-    };
-
+    });
     if (!isFetching) {
       document.addEventListener("scroll", onScroll);
     }
